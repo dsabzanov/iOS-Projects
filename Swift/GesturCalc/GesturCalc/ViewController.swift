@@ -88,7 +88,7 @@ class ViewController: UIViewController {
             //label.text = formatForLabel(numberOnScreen)
         }
         
-        if !((label.text?.contains("."))! || ((label.text?.contains("."))! && label.text?.characters.last == "0")) {
+        if !((label.text?.contains("."))! || ((label.text?.contains("."))! && label.text?.last == "0")) {
             label.text = formatForLabel(numberOnScreen)
             //print(numberOnScreen)
         }
@@ -286,15 +286,18 @@ class ViewController: UIViewController {
     
     // Swipe Right or Left on Label to remove last digit
     @IBAction func removeLastDigit(_ sender: AnyObject) {
-        if (label.text?.characters.count)! > 1 {
-            if label.text?.characters.last == "." {
-                label.text?.characters.removeLast()
+        if (label.text?.count)! > 1 {
+            if label.text?.last == "." {
+                label.text?.removeLast()
             }
             else {
                 label.text = label.text!.replacingOccurrences(of: ",", with: "")
-                label.text?.characters.removeLast()
+                label.text?.removeLast()
                 label.text = formatForLabel(Double(label.text!)!)
                 numberOnScreen = Double(label.text!.replacingOccurrences(of: ",", with: ""))!
+                if performingMath == true {
+                    currentNumber = String(currentNumber.dropLast())
+                }
             }
         }
         else {
@@ -403,11 +406,11 @@ class ViewController: UIViewController {
             let leftHalf = numberFormatter.string(from: NSNumber(value: intLeftHalf))
             var rightHalf = valuesSplitByDecimal[1]
             
-            while rightHalf.characters.last == "0" {
-                rightHalf.characters.removeLast()
+            while rightHalf.last == "0" {
+                rightHalf.removeLast()
             }
             
-            if (rightHalf.characters.count) > 0 {
+            if (rightHalf.count) > 0 {
                 formattedNumber = leftHalf! + "." + rightHalf
             }
             else {
@@ -422,7 +425,7 @@ class ViewController: UIViewController {
     }
  
     func labelTextLengthLimiter() {
-        let labelLength = label.text?.characters.count
+        let labelLength = label.text?.count
         let labelText: String = label.text!
 
         //print(label.text)
@@ -458,15 +461,6 @@ class ViewController: UIViewController {
         
         // Do any additional setup after loading the view, typically from a nib.
         label.text = "0"
-        
-       
-        //topRowOperatorButtons.forEach({$0.addBorder(side: .bottom, thickness: 2, color: UIColor(red:0.80, green:0.80, blue:0.80, alpha:1.0) )})
-        
-        //rightColumnOperatorButtons.forEach({$0.addBorder(side: .left, thickness: 2, color: UIColor(red: 1.00, green: 0.50, blue: 0.00, alpha: 1.0))})
-        
-        //addBorder(side: .bottom, thickness: 2, color: .orange)
-        
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -478,36 +472,3 @@ class ViewController: UIViewController {
         return .lightContent
     }
 }
-/*
-@IBDesignable extension UIButton {
-    
-    @IBInspectable var borderWidth: CGFloat {
-        set {
-            layer.borderWidth = newValue
-        }
-        get {
-            return layer.borderWidth
-        }
-    }
-    
-    @IBInspectable var cornerRadius: CGFloat {
-        set {
-            layer.cornerRadius = newValue
-        }
-        get {
-            return layer.cornerRadius
-        }
-    }
-    
-    @IBInspectable var borderColor: UIColor? {
-        set {
-            guard let uiColor = newValue else { return }
-            layer.borderColor = uiColor.cgColor
-        }
-        get {
-            guard let color = layer.borderColor else { return nil }
-            return UIColor(cgColor: color)
-        }
-    }
-}
-*/
