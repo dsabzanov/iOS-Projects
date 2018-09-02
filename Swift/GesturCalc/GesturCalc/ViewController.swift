@@ -60,7 +60,9 @@ class ViewController: UIViewController {
                     currentNumber = currentNumber + "0."
                 }
                 else {
-                    currentNumber = currentNumber + "."
+                    if !(currentNumber.contains(".")) {
+                        currentNumber = currentNumber + "."
+                    }
                 }
                 label.text = currentNumber
                 //label.text = label.text! + "0."
@@ -226,10 +228,19 @@ class ViewController: UIViewController {
     
     // Tap the Label view will display calculation
     @IBAction func tapEquals(_ sender: AnyObject) {
+        /*
         operatorLabel.text = "="
-        prevSenderTag = 16
         calculate()
-        performingMath = false
+        numberOnScreen = 0
+        currentNumber = ""
+        prevSenderTag = 16
+        */
+        
+        let swipedOperation = UIButton()
+        swipedOperation.tag = 16
+        functionButtons(swipedOperation)
+        
+        //performingMath = false
     }
     
     // Swipe Right -> Add
@@ -441,6 +452,9 @@ class ViewController: UIViewController {
                 removeLastDigit(labelLength as AnyObject)
             }
             else if (!labelText.contains(".") && labelLength! > 11) {
+                removeLastDigit(labelLength as AnyObject)
+            }
+            else if (labelText.last == "." && labelLength == 12) {
                 removeLastDigit(labelLength as AnyObject)
             }
         }
