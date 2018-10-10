@@ -60,7 +60,7 @@ extension Story {
         case .crate:
             return "Unlike everything else around you the crate seems new and...alien. As you examine the create you notice something glinting on the ground beside it. Aha, a key! It must be for the crate..."
         case .monster:
-            return "You pick up the key and try to unlock the crate, but the key breaks off in the keyhole.You scream out in frustration! Your scream alerts a creature that captures you and takes you away..."
+            return "You pick up the key and try to unlock the crate, but the key breaks off in the keyhole. You scream out in frustration! Your scream alerts a creature that captures you and takes you away..."
         case .droid(let name):
             return "After a long walk slightly uphill, you end up at the top of a small crater. You look around and are overjoyed to see your robot friend, \(name)-S1124. It had been lost on a previous mission to Mars. You take it back to your ship and fly back to Earth."
         case .home:
