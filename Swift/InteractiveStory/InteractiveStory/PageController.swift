@@ -40,22 +40,23 @@ class PageController: UIViewController {
         let paragraphStyle = NSMutableParagraphStyle()
         
         // change constraint constant here
-        if UIScreen.main.bounds.size.width <= Constants.iPhone6Width {
-            
-            if self.page?.story.text == Story.homeward.text {
-                paragraphStyle.lineSpacing = 2
-            }
-            else if self.page?.story.text == Story.rover.text {
-                paragraphStyle.lineSpacing = 5
-            }
-            else {
+        func iph6constraints(withName name: String) {
+            if UIScreen.main.bounds.size.width <= Constants.iPhone6Width {
+                
+                if self.page?.story.text == Story.homeward.text {
+                    paragraphStyle.lineSpacing = 2
+                }
+                else if self.page?.story.text == Story.rover(name: name).text {
+                    paragraphStyle.lineSpacing = 5
+                }
+                else {
+                    paragraphStyle.lineSpacing = 10
+                }
+                
+            } else {
                 paragraphStyle.lineSpacing = 10
             }
-            
-        } else {
-            paragraphStyle.lineSpacing = 10
         }
-        
         attributedString.addAttribute(NSParagraphStyleAttributeName, value: paragraphStyle, range: NSMakeRange(0, attributedString.length))
         
         label.attributedText = attributedString
