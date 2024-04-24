@@ -1,0 +1,1027 @@
+2018-08-30 15:14:03 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fd36be668e0; archive(resolved)='<IDEArchive: 0x7fd36a379200>', distributionTask(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fd36a383cf0>', team(resolved)='<IDEProvisioningBasicTeam: 0x7fd36beb90d0; teamID='DJ8NDX2RFP', teamName='Anton Sabzanov'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fd36be668e0; archive = '<IDEArchive: 0x7fd36a379200>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fd36a383cf0>', team='<IDEProvisioningBasicTeam: 0x7fd36beb90d0; teamID='DJ8NDX2RFP', teamName='Anton Sabzanov'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fd36a0a9690; archive = '<IDEArchive: 0x7fd36a379200>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fd36a383cf0>', team='<IDEProvisioningBasicTeam: 0x7fd36beb90d0; teamID='DJ8NDX2RFP', teamName='Anton Sabzanov'>'>
+	<IDEDistributionContext: 0x7fd36f21fb80; archive = '<IDEArchive: 0x7fd36a379200>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fd36a383cf0>', team='<IDEProvisioningBasicTeam: 0x7fd36beb90d0; teamID='DJ8NDX2RFP', teamName='Anton Sabzanov'>'>
+	<IDEDistributionContext: 0x7fd36bf4d200; archive = '<IDEArchive: 0x7fd36a379200>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fd36a383cf0>', team='<IDEProvisioningBasicTeam: 0x7fd36beb90d0; teamID='DJ8NDX2RFP', teamName='Anton Sabzanov'>'>
+	<IDEDistributionContext: 0x7fd36bf50540; archive = '<IDEArchive: 0x7fd36a379200>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fd36a383cf0>', team='<IDEProvisioningBasicTeam: 0x7fd36beb90d0; teamID='DJ8NDX2RFP', teamName='Anton Sabzanov'>'>
+	<IDEDistributionContext: 0x7fd36bf76240; archive = '<IDEArchive: 0x7fd36a379200>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fd36a383cf0>', team='<IDEProvisioningBasicTeam: 0x7fd36beb90d0; teamID='DJ8NDX2RFP', teamName='Anton Sabzanov'>'>
+	<IDEDistributionContext: 0x7fd36a09ef90; archive = '<IDEArchive: 0x7fd36a379200>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fd36a383cf0>', team='<IDEProvisioningBasicTeam: 0x7fd36beb90d0; teamID='DJ8NDX2RFP', teamName='Anton Sabzanov'>'>
+	<IDEDistributionContext: 0x7fd36be55340; archive = '<IDEArchive: 0x7fd36a379200>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fd36a383cf0>', team='<IDEProvisioningBasicTeam: 0x7fd36beb90d0; teamID='DJ8NDX2RFP', teamName='Anton Sabzanov'>'>
+	<IDEDistributionContext: 0x7fd36a0a9870; archive = '<IDEArchive: 0x7fd36a379200>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fd36a383cf0>', team='<IDEProvisioningBasicTeam: 0x7fd36beb90d0; teamID='DJ8NDX2RFP', teamName='Anton Sabzanov'>'>
+	<IDEDistributionContext: 0x7fd36a35b7e0; archive = '<IDEArchive: 0x7fd36a379200>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fd36a383cf0>', team='<IDEProvisioningBasicTeam: 0x7fd36beb90d0; teamID='DJ8NDX2RFP', teamName='Anton Sabzanov'>'>
+	<IDEDistributionContext: 0x7fd36be49910; archive = '<IDEArchive: 0x7fd36a379200>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fd36be668e0>
+2018-08-30 15:14:03 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-08-30 15:14:03 +0000  Processing step: IDEDistributionCopyItemStep
+2018-08-30 15:14:03 +0000  Running /usr/bin/ditto '-V' '/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app'
+2018-08-30 15:14:03 +0000  >>> Copying /Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app 
+2018-08-30 15:14:03 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-08-30 15:14:03 +0000  16175 bytes for ./_CodeSignature/CodeResources
+2018-08-30 15:14:03 +0000  copying file ./AppIcon20x20@2x.png ... 
+2018-08-30 15:14:03 +0000  1681 bytes for ./AppIcon20x20@2x.png
+2018-08-30 15:14:03 +0000  copying file ./AppIcon20x20@3x.png ... 
+2018-08-30 15:14:03 +0000  2747 bytes for ./AppIcon20x20@3x.png
+2018-08-30 15:14:03 +0000  copying file ./AppIcon60x60@2x.png ... 
+2018-08-30 15:14:03 +0000  5532 bytes for ./AppIcon60x60@2x.png
+2018-08-30 15:14:03 +0000  copying file ./AppIcon60x60@2x~car.png ... 
+2018-08-30 15:14:03 +0000  5532 bytes for ./AppIcon60x60@2x~car.png
+2018-08-30 15:14:03 +0000  copying file ./AppIcon60x60@3x~car.png ... 
+2018-08-30 15:14:03 +0000  10099 bytes for ./AppIcon60x60@3x~car.png
+2018-08-30 15:14:03 +0000  copying file ./AppIcon29x29@2x.png ... 
+2018-08-30 15:14:03 +0000  2643 bytes for ./AppIcon29x29@2x.png
+2018-08-30 15:14:03 +0000  copying file ./AppIcon40x40@3x.png ... 
+2018-08-30 15:14:03 +0000  5532 bytes for ./AppIcon40x40@3x.png
+copying file ./AppIcon29x29~ipad.png ... 
+2018-08-30 15:14:03 +0000  1228 bytes for ./AppIcon29x29~ipad.png
+copying file ./AppIcon40x40@2x.png ... 
+2018-08-30 15:14:03 +0000  3938 bytes for ./AppIcon40x40@2x.png
+2018-08-30 15:14:03 +0000  copying file ./AppIcon29x29@3x.png ... 
+2018-08-30 15:14:03 +0000  4120 bytes for ./AppIcon29x29@3x.png
+2018-08-30 15:14:03 +0000  copying file ./AppIcon60x60@3x.png ... 
+2018-08-30 15:14:03 +0000  10099 bytes for ./AppIcon60x60@3x.png
+2018-08-30 15:14:03 +0000  copying file ./Base.lproj/Main.storyboardc/tzE-Wy-65Q-view-ymh-oE-pqj.nib ... 
+2018-08-30 15:14:03 +0000  5839 bytes for ./Base.lproj/Main.storyboardc/tzE-Wy-65Q-view-ymh-oE-pqj.nib
+2018-08-30 15:14:03 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-qem-YT-0lN.nib ... 
+2018-08-30 15:14:03 +0000  990 bytes for ./Base.lproj/Main.storyboardc/UIViewController-qem-YT-0lN.nib
+2018-08-30 15:14:03 +0000  copying file ./Base.lproj/Main.storyboardc/OnboardingViewController.nib ... 
+2018-08-30 15:14:03 +0000  1370 bytes for ./Base.lproj/Main.storyboardc/OnboardingViewController.nib
+2018-08-30 15:14:03 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-08-30 15:14:03 +0000  2927 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2018-08-30 15:14:03 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-08-30 15:14:03 +0000  21168 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2018-08-30 15:14:03 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-08-30 15:14:03 +0000  393 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2018-08-30 15:14:03 +0000  copying file ./Base.lproj/Main.storyboardc/qem-YT-0lN-view-mdE-HV-nwS.nib ... 
+2018-08-30 15:14:03 +0000  14294 bytes for ./Base.lproj/Main.storyboardc/qem-YT-0lN-view-mdE-HV-nwS.nib
+2018-08-30 15:14:03 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-lGs-iQ-Pav.nib ... 
+2018-08-30 15:14:03 +0000  6607 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-lGs-iQ-Pav.nib
+2018-08-30 15:14:03 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-08-30 15:14:03 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2018-08-30 15:14:03 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-08-30 15:14:03 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-08-30 15:14:03 +0000  copying file ./Assets.car ... 
+2018-08-30 15:14:03 +0000  529496 bytes for ./Assets.car
+copying file ./AppIcon40x40@2x~ipad.png ... 
+2018-08-30 15:14:03 +0000  3938 bytes for ./AppIcon40x40@2x~ipad.png
+2018-08-30 15:14:03 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2018-08-30 15:14:03 +0000  6825 bytes for ./AppIcon76x76@2x~ipad.png
+copying file ./AppIcon83.5x83.5@2x~ipad.png ... 
+2018-08-30 15:14:03 +0000  9337 bytes for ./AppIcon83.5x83.5@2x~ipad.png
+2018-08-30 15:14:03 +0000  copying file ./AppIcon29x29@2x~ipad.png ... 
+2018-08-30 15:14:03 +0000  2643 bytes for ./AppIcon29x29@2x~ipad.png
+copying file ./AppIcon40x40~ipad.png ... 
+2018-08-30 15:14:03 +0000  1681 bytes for ./AppIcon40x40~ipad.png
+copying file ./Frameworks/libswiftCoreImage.dylib ... 
+2018-08-30 15:14:03 +0000  307632 bytes for ./Frameworks/libswiftCoreImage.dylib
+copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2018-08-30 15:14:03 +0000  554096 bytes for ./Frameworks/libswiftObjectiveC.dylib
+copying file ./Frameworks/libswiftCore.dylib ... 
+2018-08-30 15:14:03 +0000  66662560 bytes for ./Frameworks/libswiftCore.dylib
+copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+2018-08-30 15:14:03 +0000  1628560 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+2018-08-30 15:14:03 +0000  copying file ./Frameworks/libswiftUIKit.dylib ... 
+1043024 bytes for ./Frameworks/libswiftUIKit.dylib
+copying file ./Frameworks/libswiftMetal.dylib ... 
+2018-08-30 15:14:03 +0000  448896 bytes for ./Frameworks/libswiftMetal.dylib
+copying file ./Frameworks/libswiftDispatch.dylib ... 
+2018-08-30 15:14:03 +0000  2722304 bytes for ./Frameworks/libswiftDispatch.dylib
+copying file ./Frameworks/libswiftos.dylib ... 
+2018-08-30 15:14:03 +0000  497152 bytes for ./Frameworks/libswiftos.dylib
+copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+2018-08-30 15:14:03 +0000  257744 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+copying file ./Frameworks/libswiftDarwin.dylib ... 
+2018-08-30 15:14:03 +0000  838736 bytes for ./Frameworks/libswiftDarwin.dylib
+copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+2018-08-30 15:14:03 +0000  310624 bytes for ./Frameworks/libswiftQuartzCore.dylib
+copying file ./Frameworks/libswiftFoundation.dylib ... 
+2018-08-30 15:14:03 +0000  30165248 bytes for ./Frameworks/libswiftFoundation.dylib
+2018-08-30 15:14:03 +0000  copying file ./AppIcon20x20~ipad.png ... 
+2018-08-30 15:14:03 +0000  873 bytes for ./AppIcon20x20~ipad.png
+copying file ./embedded.mobileprovision ... 
+7642 bytes for ./embedded.mobileprovision
+copying file ./AppIcon20x20@2x~ipad.png ... 
+2018-08-30 15:14:03 +0000  1681 bytes for ./AppIcon20x20@2x~ipad.png
+copying file ./Info.plist ... 
+2018-08-30 15:14:03 +0000  1335 bytes for ./Info.plist
+2018-08-30 15:14:03 +0000  copying file ./PkgInfo ... 
+2018-08-30 15:14:03 +0000  8 bytes for ./PkgInfo
+2018-08-30 15:14:03 +0000  copying file ./GesturCalc ... 
+2018-08-30 15:14:03 +0000  947600 bytes for ./GesturCalc
+2018-08-30 15:14:03 +0000  copying file ./AppIcon76x76~ipad.png ... 
+2018-08-30 15:14:03 +0000  3691 bytes for ./AppIcon76x76~ipad.png
+2018-08-30 15:14:03 +0000  2018-08-30 15:14:03 +0000  
+
+2018-08-30 15:14:03 +0000  /usr/bin/ditto exited with 02018-08-30 15:14:03 +0000  2018-08-30 15:14:03 +0000  
+
+
+2018-08-30 15:14:03 +0000  Processing step: IDEDistributionEmbedProfileStep
+2018-08-30 15:14:03 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd36b3ca600 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fd36bef2440:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftCore.dylib'>'>
+2018-08-30 15:14:03 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd36a319c90 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fd36bf56d10:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-08-30 15:14:03 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd36f109a00 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fd36bf532c0:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-08-30 15:14:03 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd36befb3d0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fd36bef0e70:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-08-30 15:14:03 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd36a0c0b20 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fd36bf57910:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-08-30 15:14:03 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd36a0c7ec0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fd36bee3c80:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-08-30 15:14:03 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd36bf60830 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fd36bf59e20:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-08-30 15:14:03 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd36bf65d70 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fd36a3acfd0:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftMetal.dylib'>'>
+2018-08-30 15:14:03 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd36f2046b0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fd36beef440:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-08-30 15:14:03 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd36b4fb190 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fd36bf58cf0:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-08-30 15:14:03 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd36f20e330 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fd36bf28470:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-08-30 15:14:03 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd36b3f9650 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fd36bf54a30:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftos.dylib'>'>
+2018-08-30 15:14:03 +0000  Processing step: IDEDistributionItemRemovalStep
+2018-08-30 15:14:03 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-08-30 15:14:03 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-08-30 15:14:03 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-08-30 15:14:03 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-08-30 15:14:03 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-08-30 15:14:04 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-08-30 15:14:04 +0000  Running /usr/bin/ditto '-V' '/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/BCSymbolMaps/45371BCE-9388-3788-81E2-048D807E9D05.bcsymbolmap' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/BCSymbolMaps/45371BCE-9388-3788-81E2-048D807E9D05.bcsymbolmap'
+2018-08-30 15:14:04 +0000  >>> Copying /Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/BCSymbolMaps/45371BCE-9388-3788-81E2-048D807E9D05.bcsymbolmap 
+2018-08-30 15:14:04 +0000  copying file ./45371BCE-9388-3788-81E2-048D807E9D05.bcsymbolmap ... 
+2018-08-30 15:14:04 +0000  44677 bytes for ./45371BCE-9388-3788-81E2-048D807E9D05.bcsymbolmap
+2018-08-30 15:14:04 +0000  
+2018-08-30 15:14:04 +0000  
+2018-08-30 15:14:04 +0000  /usr/bin/ditto exited with 0
+2018-08-30 15:14:04 +0000  2018-08-30 15:14:04 +0000  
+
+2018-08-30 15:14:04 +0000  Running /usr/bin/ditto '-V' '/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/BCSymbolMaps/AC0D1233-0F75-315F-ADE0-C73E7D45ECC6.bcsymbolmap' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/BCSymbolMaps/AC0D1233-0F75-315F-ADE0-C73E7D45ECC6.bcsymbolmap'
+2018-08-30 15:14:04 +0000  >>> Copying /Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/BCSymbolMaps/AC0D1233-0F75-315F-ADE0-C73E7D45ECC6.bcsymbolmap 
+2018-08-30 15:14:04 +0000  copying file ./AC0D1233-0F75-315F-ADE0-C73E7D45ECC6.bcsymbolmap ... 
+2018-08-30 15:14:04 +0000  43809 bytes for ./AC0D1233-0F75-315F-ADE0-C73E7D45ECC6.bcsymbolmap
+2018-08-30 15:14:04 +0000  2018-08-30 15:14:04 +0000  
+
+2018-08-30 15:14:04 +0000  2018-08-30 15:14:04 +0000  /usr/bin/ditto exited with 0
+2018-08-30 15:14:04 +0000  
+
+2018-08-30 15:14:04 +0000  
+2018-08-30 15:14:04 +0000  Processing step: IDEDistributionSymbolsStep
+2018-08-30 15:14:04 +0000  Processing symbols for libswiftCore.dylib
+2018-08-30 15:14:04 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftCore.dylib' '--link-dest' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo'
+2018-08-30 15:14:04 +0000  building file list ... 
+2018-08-30 15:14:04 +0000   0 files...2018-08-30 15:14:04 +0000  1 file to consider
+2018-08-30 15:14:04 +0000  
+2018-08-30 15:14:04 +0000  
+2018-08-30 15:14:04 +0000  sent 98 bytes  received 20 bytes  236.00 bytes/sec
+total size is 63.57M  speedup is 564936.95
+2018-08-30 15:14:04 +0000  /usr/bin/rsync exited with 0
+2018-08-30 15:14:04 +0000  2018-08-30 15:14:04 +0000  
+
+2018-08-30 15:14:04 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/dSYMs/' '--link-dest' '/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/dSYMs/' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo'
+2018-08-30 15:14:04 +0000  building file list ... 
+2018-08-30 15:14:04 +0000   0 files...2018-08-30 15:14:04 +0000  7 files to consider
+2018-08-30 15:14:04 +0000  ./
+2018-08-30 15:14:04 +0000  GesturCalc.app.dSYM/
+GesturCalc.app.dSYM/Contents/
+GesturCalc.app.dSYM/Contents/Resources/
+GesturCalc.app.dSYM/Contents/Resources/DWARF/
+2018-08-30 15:14:04 +0000  
+sent 248 bytes  received 50 bytes  596.00 bytes/sec
+total size is 414.37K  speedup is 1423.88
+2018-08-30 15:14:04 +0000  
+2018-08-30 15:14:04 +0000  2018-08-30 15:14:04 +0000  /usr/bin/rsync exited with 0
+
+2018-08-30 15:14:04 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Symbols' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftCore.dylib'
+2018-08-30 15:14:05 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftCore.dylib [armv7, 0.681977 seconds]:
+/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftCore.dylib [armv7s, 0.681977 seconds]:
+/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftCore.dylib [arm64, 0.681977 seconds]:
+2018-08-30 15:14:05 +0000  
+2018-08-30 15:14:05 +0000  
+2018-08-30 15:14:05 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-08-30 15:14:05 +0000  
+2018-08-30 15:14:05 +0000  Processing symbols for libswiftCoreFoundation.dylib
+2018-08-30 15:14:05 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftCoreFoundation.dylib' '--link-dest' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo'
+2018-08-30 15:14:05 +0000  building file list ... 
+2018-08-30 15:14:05 +0000   0 files...2018-08-30 15:14:05 +0000  1 file to consider
+2018-08-30 15:14:05 +0000  
+sent 108 bytes  received 20 bytes  256.00 bytes/sec
+total size is 251.70K  speedup is 2013.62
+2018-08-30 15:14:05 +0000  
+2018-08-30 15:14:05 +0000  
+2018-08-30 15:14:05 +0000  
+2018-08-30 15:14:05 +0000  2018-08-30 15:14:05 +0000  /usr/bin/rsync exited with 0
+2018-08-30 15:14:05 +0000  
+
+2018-08-30 15:14:05 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/dSYMs/' '--link-dest' '/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/dSYMs/' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo'
+2018-08-30 15:14:05 +0000  building file list ... 
+2018-08-30 15:14:05 +0000   0 files...2018-08-30 15:14:05 +0000  7 files to consider
+2018-08-30 15:14:05 +0000  ./
+2018-08-30 15:14:05 +0000  GesturCalc.app.dSYM/
+GesturCalc.app.dSYM/Contents/
+GesturCalc.app.dSYM/Contents/Resources/
+GesturCalc.app.dSYM/Contents/Resources/DWARF/
+2018-08-30 15:14:05 +0000  
+sent 260 bytes  received 62 bytes  644.00 bytes/sec
+total size is 414.37K  speedup is 1317.75
+2018-08-30 15:14:05 +0000  
+2018-08-30 15:14:05 +0000  
+2018-08-30 15:14:05 +0000  
+2018-08-30 15:14:05 +0000  
+2018-08-30 15:14:05 +0000  /usr/bin/rsync exited with 0
+2018-08-30 15:14:05 +0000  
+2018-08-30 15:14:05 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Symbols' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftCoreFoundation.dylib'
+2018-08-30 15:14:05 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftCoreFoundation.dylib [armv7, 0.003360 seconds]:
+/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftCoreFoundation.dylib [armv7s, 0.003360 seconds]:
+/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftCoreFoundation.dylib [arm64, 0.003360 seconds]:
+2018-08-30 15:14:05 +0000  
+2018-08-30 15:14:05 +0000  2018-08-30 15:14:05 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-08-30 15:14:05 +0000  Processing symbols for libswiftCoreGraphics.dylib
+2018-08-30 15:14:05 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftCoreGraphics.dylib' '--link-dest' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo'
+2018-08-30 15:14:05 +0000  building file list ... 
+2018-08-30 15:14:05 +0000   0 files...2018-08-30 15:14:05 +0000  1 file to consider
+2018-08-30 15:14:05 +0000  
+sent 106 bytes  received 20 bytes  252.00 bytes/sec
+total size is 1.55M  speedup is 12925.08
+2018-08-30 15:14:05 +0000  
+2018-08-30 15:14:05 +0000  
+2018-08-30 15:14:05 +0000  2018-08-30 15:14:05 +0000  /usr/bin/rsync exited with 0
+2018-08-30 15:14:05 +0000  
+
+2018-08-30 15:14:05 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/dSYMs/' '--link-dest' '/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/dSYMs/' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo'
+2018-08-30 15:14:05 +0000  building file list ... 
+2018-08-30 15:14:05 +0000   0 files...2018-08-30 15:14:05 +0000  7 files to consider
+2018-08-30 15:14:05 +0000  ./
+GesturCalc.app.dSYM/
+GesturCalc.app.dSYM/Contents/
+GesturCalc.app.dSYM/Contents/Resources/
+GesturCalc.app.dSYM/Contents/Resources/DWARF/
+2018-08-30 15:14:05 +0000  
+sent 260 bytes  received 62 bytes  644.00 bytes/sec
+total size is 414.37K  speedup is 1317.75
+2018-08-30 15:14:05 +0000  2018-08-30 15:14:05 +0000  
+
+2018-08-30 15:14:05 +0000  /usr/bin/rsync exited with 02018-08-30 15:14:05 +0000  
+
+2018-08-30 15:14:05 +0000  
+2018-08-30 15:14:05 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Symbols' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftCoreGraphics.dylib'
+2018-08-30 15:14:06 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftCoreGraphics.dylib [armv7, 0.019279 seconds]:
+/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftCoreGraphics.dylib [armv7s, 0.019279 seconds]:
+/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftCoreGraphics.dylib [arm64, 0.019279 seconds]:
+2018-08-30 15:14:06 +0000  
+2018-08-30 15:14:06 +0000  2018-08-30 15:14:06 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-08-30 15:14:06 +0000  2018-08-30 15:14:06 +0000  
+
+2018-08-30 15:14:06 +0000  Processing symbols for libswiftCoreImage.dylib
+2018-08-30 15:14:06 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftCoreImage.dylib' '--link-dest' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo'
+2018-08-30 15:14:06 +0000  building file list ... 
+2018-08-30 15:14:06 +0000   0 files...2018-08-30 15:14:06 +0000  1 file to consider
+2018-08-30 15:14:06 +0000  
+sent 103 bytes  received 20 bytes  246.00 bytes/sec
+total size is 300.42K  speedup is 2501.07
+2018-08-30 15:14:06 +0000  
+2018-08-30 15:14:06 +0000  
+2018-08-30 15:14:06 +0000  /usr/bin/rsync exited with 02018-08-30 15:14:06 +0000  
+
+2018-08-30 15:14:06 +0000  
+2018-08-30 15:14:06 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/dSYMs/' '--link-dest' '/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/dSYMs/' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo'
+2018-08-30 15:14:06 +0000  building file list ... 
+2018-08-30 15:14:06 +0000   0 files...2018-08-30 15:14:06 +0000  7 files to consider
+2018-08-30 15:14:06 +0000  ./
+2018-08-30 15:14:06 +0000  GesturCalc.app.dSYM/
+GesturCalc.app.dSYM/Contents/
+GesturCalc.app.dSYM/Contents/Resources/
+GesturCalc.app.dSYM/Contents/Resources/DWARF/
+2018-08-30 15:14:06 +0000  
+sent 260 bytes  received 62 bytes  644.00 bytes/sec
+total size is 414.37K  speedup is 1317.75
+2018-08-30 15:14:06 +0000  
+2018-08-30 15:14:06 +0000  
+2018-08-30 15:14:06 +0000  /usr/bin/rsync exited with 0
+2018-08-30 15:14:06 +0000  2018-08-30 15:14:06 +0000  
+
+2018-08-30 15:14:06 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Symbols' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftCoreImage.dylib'
+2018-08-30 15:14:06 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftCoreImage.dylib [armv7, 0.002419 seconds]:
+/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftCoreImage.dylib [armv7s, 0.002419 seconds]:
+/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftCoreImage.dylib [arm64, 0.002419 seconds]:
+2018-08-30 15:14:06 +0000  
+2018-08-30 15:14:06 +0000  
+2018-08-30 15:14:06 +0000  
+2018-08-30 15:14:06 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-08-30 15:14:06 +0000  
+2018-08-30 15:14:06 +0000  Processing symbols for libswiftDarwin.dylib
+2018-08-30 15:14:06 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftDarwin.dylib' '--link-dest' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo'
+2018-08-30 15:14:06 +0000  building file list ... 
+2018-08-30 15:14:06 +0000   0 files...2018-08-30 15:14:06 +0000  1 file to consider
+2018-08-30 15:14:06 +0000  
+sent 100 bytes  received 20 bytes  240.00 bytes/sec
+total size is 819.08K  speedup is 6989.47
+2018-08-30 15:14:06 +0000  2018-08-30 15:14:06 +0000  
+
+2018-08-30 15:14:06 +0000  /usr/bin/rsync exited with 0
+2018-08-30 15:14:06 +0000  2018-08-30 15:14:06 +0000  
+
+2018-08-30 15:14:06 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/dSYMs/' '--link-dest' '/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/dSYMs/' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo'
+2018-08-30 15:14:06 +0000  building file list ... 
+2018-08-30 15:14:06 +0000   0 files...2018-08-30 15:14:06 +0000  7 files to consider
+2018-08-30 15:14:06 +0000  ./
+2018-08-30 15:14:06 +0000  GesturCalc.app.dSYM/
+GesturCalc.app.dSYM/Contents/
+GesturCalc.app.dSYM/Contents/Resources/
+GesturCalc.app.dSYM/Contents/Resources/DWARF/
+2018-08-30 15:14:06 +0000  
+sent 260 bytes  received 62 bytes  644.00 bytes/sec
+total size is 414.37K  speedup is 1317.75
+2018-08-30 15:14:06 +0000  
+2018-08-30 15:14:06 +0000  /usr/bin/rsync exited with 02018-08-30 15:14:06 +0000  
+
+2018-08-30 15:14:06 +0000  
+2018-08-30 15:14:06 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Symbols' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftDarwin.dylib'
+2018-08-30 15:14:06 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftDarwin.dylib [armv7, 0.009511 seconds]:
+/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftDarwin.dylib [armv7s, 0.009511 seconds]:
+/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftDarwin.dylib [arm64, 0.009511 seconds]:
+2018-08-30 15:14:06 +0000  2018-08-30 15:14:06 +0000  
+2018-08-30 15:14:06 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-08-30 15:14:06 +0000  2018-08-30 15:14:06 +0000  
+
+2018-08-30 15:14:06 +0000  Processing symbols for libswiftDispatch.dylib
+2018-08-30 15:14:06 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftDispatch.dylib' '--link-dest' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo'
+2018-08-30 15:14:06 +0000  building file list ... 
+2018-08-30 15:14:06 +0000   0 files...2018-08-30 15:14:06 +0000  1 file to consider
+2018-08-30 15:14:06 +0000  
+sent 102 bytes  received 20 bytes  244.00 bytes/sec
+total size is 2.60M  speedup is 22313.97
+2018-08-30 15:14:06 +0000  2018-08-30 15:14:06 +0000  
+
+2018-08-30 15:14:06 +0000  /usr/bin/rsync exited with 0
+2018-08-30 15:14:06 +0000  2018-08-30 15:14:06 +0000  
+
+2018-08-30 15:14:06 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/dSYMs/' '--link-dest' '/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/dSYMs/' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo'
+2018-08-30 15:14:06 +0000  building file list ... 
+2018-08-30 15:14:06 +0000   0 files...2018-08-30 15:14:06 +0000  7 files to consider
+2018-08-30 15:14:06 +0000  ./
+2018-08-30 15:14:06 +0000  GesturCalc.app.dSYM/
+GesturCalc.app.dSYM/Contents/
+GesturCalc.app.dSYM/Contents/Resources/
+GesturCalc.app.dSYM/Contents/Resources/DWARF/
+2018-08-30 15:14:06 +0000  
+sent 260 bytes  received 62 bytes  644.00 bytes/sec
+total size is 414.37K  speedup is 1317.75
+2018-08-30 15:14:06 +0000  
+2018-08-30 15:14:06 +0000  
+2018-08-30 15:14:06 +0000  /usr/bin/rsync exited with 02018-08-30 15:14:06 +0000  
+
+2018-08-30 15:14:06 +0000  
+2018-08-30 15:14:06 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Symbols' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftDispatch.dylib'
+2018-08-30 15:14:06 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftDispatch.dylib [armv7, 0.038637 seconds]:
+/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftDispatch.dylib [armv7s, 0.038637 seconds]:
+/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftDispatch.dylib [arm64, 0.038637 seconds]:
+2018-08-30 15:14:06 +0000  
+2018-08-30 15:14:06 +0000  
+2018-08-30 15:14:06 +0000  
+2018-08-30 15:14:06 +0000  2018-08-30 15:14:06 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-08-30 15:14:06 +0000  
+2018-08-30 15:14:06 +0000  
+2018-08-30 15:14:06 +0000  Processing symbols for libswiftFoundation.dylib
+2018-08-30 15:14:06 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftFoundation.dylib' '--link-dest' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo'
+2018-08-30 15:14:06 +0000  building file list ... 
+2018-08-30 15:14:06 +0000   0 files...2018-08-30 15:14:06 +0000  1 file to consider
+2018-08-30 15:14:06 +0000  
+sent 104 bytes  received 20 bytes  248.00 bytes/sec
+total size is 28.77M  speedup is 243268.13
+2018-08-30 15:14:06 +0000  
+2018-08-30 15:14:06 +0000  2018-08-30 15:14:06 +0000  /usr/bin/rsync exited with 0
+
+2018-08-30 15:14:06 +0000  2018-08-30 15:14:06 +0000  
+
+2018-08-30 15:14:06 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/dSYMs/' '--link-dest' '/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/dSYMs/' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo'
+2018-08-30 15:14:06 +0000  building file list ... 
+2018-08-30 15:14:06 +0000   0 files...2018-08-30 15:14:06 +0000  7 files to consider
+2018-08-30 15:14:06 +0000  ./
+GesturCalc.app.dSYM/
+GesturCalc.app.dSYM/Contents/
+GesturCalc.app.dSYM/Contents/Resources/
+GesturCalc.app.dSYM/Contents/Resources/DWARF/
+2018-08-30 15:14:06 +0000  
+sent 260 bytes  received 62 bytes  644.00 bytes/sec
+total size is 414.37K  speedup is 1317.75
+2018-08-30 15:14:06 +0000  
+2018-08-30 15:14:06 +0000  
+2018-08-30 15:14:06 +0000  2018-08-30 15:14:06 +0000  /usr/bin/rsync exited with 0
+
+2018-08-30 15:14:06 +0000  
+2018-08-30 15:14:06 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Symbols' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftFoundation.dylib'
+2018-08-30 15:14:07 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftFoundation.dylib [armv7, 0.312924 seconds]:
+/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftFoundation.dylib [armv7s, 0.312924 seconds]:
+/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftFoundation.dylib [arm64, 0.312924 seconds]:
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  2018-08-30 15:14:07 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-08-30 15:14:07 +0000  2018-08-30 15:14:07 +0000  
+
+2018-08-30 15:14:07 +0000  Processing symbols for libswiftMetal.dylib
+2018-08-30 15:14:07 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftMetal.dylib' '--link-dest' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo'
+2018-08-30 15:14:07 +0000  building file list ... 
+2018-08-30 15:14:07 +0000   0 files...2018-08-30 15:14:07 +0000  1 file to consider
+2018-08-30 15:14:07 +0000  
+sent 99 bytes  received 20 bytes  238.00 bytes/sec
+total size is 438.38K  speedup is 3772.24
+2018-08-30 15:14:07 +0000  2018-08-30 15:14:07 +0000  
+
+2018-08-30 15:14:07 +0000  /usr/bin/rsync exited with 0
+2018-08-30 15:14:07 +0000  2018-08-30 15:14:07 +0000  
+
+2018-08-30 15:14:07 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/dSYMs/' '--link-dest' '/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/dSYMs/' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo'
+2018-08-30 15:14:07 +0000  building file list ... 
+2018-08-30 15:14:07 +0000   0 files...2018-08-30 15:14:07 +0000  7 files to consider
+2018-08-30 15:14:07 +0000  ./
+2018-08-30 15:14:07 +0000  GesturCalc.app.dSYM/
+GesturCalc.app.dSYM/Contents/
+GesturCalc.app.dSYM/Contents/Resources/
+GesturCalc.app.dSYM/Contents/Resources/DWARF/
+2018-08-30 15:14:07 +0000  
+sent 260 bytes  received 62 bytes  644.00 bytes/sec
+total size is 414.37K  speedup is 1317.75
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  /usr/bin/rsync exited with 0
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  2018-08-30 15:14:07 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Symbols' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftMetal.dylib'
+
+2018-08-30 15:14:07 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftMetal.dylib [armv7, 0.003273 seconds]:
+/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftMetal.dylib [armv7s, 0.003273 seconds]:
+/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftMetal.dylib [arm64, 0.003273 seconds]:
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  2018-08-30 15:14:07 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  Processing symbols for libswiftObjectiveC.dylib
+2018-08-30 15:14:07 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftObjectiveC.dylib' '--link-dest' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo'
+2018-08-30 15:14:07 +0000  building file list ... 
+2018-08-30 15:14:07 +0000   0 files...2018-08-30 15:14:07 +0000  1 file to consider
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  sent 104 bytes  received 20 bytes  248.00 bytes/sec
+total size is 541.11K  speedup is 4468.52
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  2018-08-30 15:14:07 +0000  
+
+2018-08-30 15:14:07 +0000  /usr/bin/rsync exited with 0
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/dSYMs/' '--link-dest' '/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/dSYMs/' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo'
+2018-08-30 15:14:07 +0000  building file list ... 
+2018-08-30 15:14:07 +0000   0 files...2018-08-30 15:14:07 +0000  7 files to consider
+2018-08-30 15:14:07 +0000  ./
+2018-08-30 15:14:07 +0000  GesturCalc.app.dSYM/
+GesturCalc.app.dSYM/Contents/
+GesturCalc.app.dSYM/Contents/Resources/
+GesturCalc.app.dSYM/Contents/Resources/DWARF/
+2018-08-30 15:14:07 +0000  
+sent 260 bytes  received 62 bytes  644.00 bytes/sec
+total size is 414.37K  speedup is 1317.75
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  /usr/bin/rsync exited with 0
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Symbols' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftObjectiveC.dylib'
+2018-08-30 15:14:07 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftObjectiveC.dylib [armv7, 0.006427 seconds]:
+/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftObjectiveC.dylib [armv7s, 0.006427 seconds]:
+/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftObjectiveC.dylib [arm64, 0.006427 seconds]:
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  2018-08-30 15:14:07 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  Processing symbols for libswiftQuartzCore.dylib
+2018-08-30 15:14:07 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftQuartzCore.dylib' '--link-dest' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo'
+2018-08-30 15:14:07 +0000  building file list ... 
+2018-08-30 15:14:07 +0000   0 files...2018-08-30 15:14:07 +0000  1 file to consider
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  sent 104 bytes  received 20 bytes  248.00 bytes/sec
+total size is 303.34K  speedup is 2505.03
+2018-08-30 15:14:07 +0000  2018-08-30 15:14:07 +0000  /usr/bin/rsync exited with 0
+
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/dSYMs/' '--link-dest' '/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/dSYMs/' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo'
+2018-08-30 15:14:07 +0000  building file list ... 
+2018-08-30 15:14:07 +0000   0 files...2018-08-30 15:14:07 +0000  7 files to consider
+2018-08-30 15:14:07 +0000  ./
+2018-08-30 15:14:07 +0000  GesturCalc.app.dSYM/
+GesturCalc.app.dSYM/Contents/
+GesturCalc.app.dSYM/Contents/Resources/
+GesturCalc.app.dSYM/Contents/Resources/DWARF/
+2018-08-30 15:14:07 +0000  
+sent 260 bytes  received 62 bytes  644.00 bytes/sec
+total size is 414.37K  speedup is 1317.75
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  2018-08-30 15:14:07 +0000  /usr/bin/rsync exited with 0
+2018-08-30 15:14:07 +0000  
+
+2018-08-30 15:14:07 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Symbols' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftQuartzCore.dylib'
+2018-08-30 15:14:07 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftQuartzCore.dylib [armv7, 0.002617 seconds]:
+/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftQuartzCore.dylib [armv7s, 0.002617 seconds]:
+/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftQuartzCore.dylib [arm64, 0.002617 seconds]:
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  Processing symbols for libswiftUIKit.dylib
+2018-08-30 15:14:07 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftUIKit.dylib' '--link-dest' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo'
+2018-08-30 15:14:07 +0000  building file list ... 
+2018-08-30 15:14:07 +0000   0 files...2018-08-30 15:14:07 +0000  1 file to consider
+2018-08-30 15:14:07 +0000  
+sent 99 bytes  received 20 bytes  238.00 bytes/sec
+total size is 1018.58K  speedup is 8764.91
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  /usr/bin/rsync exited with 0
+2018-08-30 15:14:07 +0000  2018-08-30 15:14:07 +0000  
+
+2018-08-30 15:14:07 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/dSYMs/' '--link-dest' '/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/dSYMs/' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo'
+2018-08-30 15:14:07 +0000  building file list ... 
+2018-08-30 15:14:07 +0000   0 files...2018-08-30 15:14:07 +0000  7 files to consider
+2018-08-30 15:14:07 +0000  ./
+2018-08-30 15:14:07 +0000  GesturCalc.app.dSYM/
+GesturCalc.app.dSYM/Contents/
+GesturCalc.app.dSYM/Contents/Resources/
+GesturCalc.app.dSYM/Contents/Resources/DWARF/
+2018-08-30 15:14:07 +0000  
+sent 260 bytes  received 62 bytes  644.00 bytes/sec
+total size is 414.37K  speedup is 1317.75
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  /usr/bin/rsync exited with 02018-08-30 15:14:07 +0000  
+
+2018-08-30 15:14:07 +0000  
+2018-08-30 15:14:07 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Symbols' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftUIKit.dylib'
+2018-08-30 15:14:08 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftUIKit.dylib [armv7, 0.011307 seconds]:
+/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftUIKit.dylib [armv7s, 0.011307 seconds]:
+/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftUIKit.dylib [arm64, 0.011307 seconds]:
+2018-08-30 15:14:08 +0000  
+2018-08-30 15:14:08 +0000  
+2018-08-30 15:14:08 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 02018-08-30 15:14:08 +0000  
+
+2018-08-30 15:14:08 +0000  
+2018-08-30 15:14:08 +0000  Processing symbols for libswiftos.dylib
+2018-08-30 15:14:08 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftos.dylib' '--link-dest' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo'
+2018-08-30 15:14:08 +0000  building file list ... 
+2018-08-30 15:14:08 +0000   0 files...2018-08-30 15:14:08 +0000  1 file to consider
+2018-08-30 15:14:08 +0000  
+2018-08-30 15:14:08 +0000  sent 96 bytes  received 20 bytes  232.00 bytes/sec
+total size is 485.50K  speedup is 4285.79
+2018-08-30 15:14:08 +0000  
+2018-08-30 15:14:08 +0000  
+2018-08-30 15:14:08 +0000  /usr/bin/rsync exited with 0
+2018-08-30 15:14:08 +0000  
+2018-08-30 15:14:08 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/dSYMs/' '--link-dest' '/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/dSYMs/' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo'
+2018-08-30 15:14:08 +0000  building file list ... 
+2018-08-30 15:14:08 +0000   0 files...2018-08-30 15:14:08 +0000  7 files to consider
+2018-08-30 15:14:08 +0000  ./
+2018-08-30 15:14:08 +0000  GesturCalc.app.dSYM/
+GesturCalc.app.dSYM/Contents/
+GesturCalc.app.dSYM/Contents/Resources/
+GesturCalc.app.dSYM/Contents/Resources/DWARF/
+2018-08-30 15:14:08 +0000  
+sent 260 bytes  received 62 bytes  644.00 bytes/sec
+total size is 414.37K  speedup is 1317.75
+2018-08-30 15:14:08 +0000  
+2018-08-30 15:14:08 +0000  
+2018-08-30 15:14:08 +0000  /usr/bin/rsync exited with 0
+2018-08-30 15:14:08 +0000  
+2018-08-30 15:14:08 +0000  
+2018-08-30 15:14:08 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Symbols' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftos.dylib'
+2018-08-30 15:14:08 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftos.dylib [armv7, 0.004945 seconds]:
+/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftos.dylib [armv7s, 0.004945 seconds]:
+/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/libswiftos.dylib [arm64, 0.004945 seconds]:
+2018-08-30 15:14:08 +0000  2018-08-30 15:14:08 +0000  
+
+2018-08-30 15:14:08 +0000  
+2018-08-30 15:14:08 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-08-30 15:14:08 +0000  2018-08-30 15:14:08 +0000  
+
+2018-08-30 15:14:08 +0000  Excluding symbols for GesturCalc.app
+2018-08-30 15:14:08 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2018-08-30 15:14:08 +0000  Running /usr/bin/ditto '-V' '/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/SwiftSupport' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/SwiftSupport'
+2018-08-30 15:14:08 +0000  >>> Copying /Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/SwiftSupport 
+2018-08-30 15:14:08 +0000  copying file ./iphoneos/libswiftCoreImage.dylib ... 
+2018-08-30 15:14:08 +0000  351635 bytes for ./iphoneos/libswiftCoreImage.dylib
+2018-08-30 15:14:08 +0000  copying file ./iphoneos/libswiftObjectiveC.dylib ... 
+2018-08-30 15:14:08 +0000  737148 bytes for ./iphoneos/libswiftObjectiveC.dylib
+2018-08-30 15:14:08 +0000  copying file ./iphoneos/libswiftCore.dylib ... 
+2018-08-30 15:14:08 +0000  96746864 bytes for ./iphoneos/libswiftCore.dylib
+copying file ./iphoneos/libswiftCoreGraphics.dylib ... 
+2018-08-30 15:14:08 +0000  2199628 bytes for ./iphoneos/libswiftCoreGraphics.dylib
+2018-08-30 15:14:08 +0000  copying file ./iphoneos/libswiftUIKit.dylib ... 
+2018-08-30 15:14:08 +0000  1410736 bytes for ./iphoneos/libswiftUIKit.dylib
+copying file ./iphoneos/libswiftMetal.dylib ... 
+2018-08-30 15:14:08 +0000  558460 bytes for ./iphoneos/libswiftMetal.dylib
+2018-08-30 15:14:08 +0000  copying file ./iphoneos/libswiftDispatch.dylib ... 
+2018-08-30 15:14:08 +0000  3698083 bytes for ./iphoneos/libswiftDispatch.dylib
+2018-08-30 15:14:08 +0000  copying file ./iphoneos/libswiftos.dylib ... 
+2018-08-30 15:14:08 +0000  656418 bytes for ./iphoneos/libswiftos.dylib
+2018-08-30 15:14:08 +0000  copying file ./iphoneos/libswiftCoreFoundation.dylib ... 
+2018-08-30 15:14:08 +0000  288241 bytes for ./iphoneos/libswiftCoreFoundation.dylib
+2018-08-30 15:14:08 +0000  copying file ./iphoneos/libswiftDarwin.dylib ... 
+2018-08-30 15:14:08 +0000  1091343 bytes for ./iphoneos/libswiftDarwin.dylib
+2018-08-30 15:14:08 +0000  copying file ./iphoneos/libswiftQuartzCore.dylib ... 
+2018-08-30 15:14:08 +0000  369807 bytes for ./iphoneos/libswiftQuartzCore.dylib
+copying file ./iphoneos/libswiftFoundation.dylib ... 
+2018-08-30 15:14:08 +0000  43134853 bytes for ./iphoneos/libswiftFoundation.dylib
+2018-08-30 15:14:08 +0000  
+2018-08-30 15:14:08 +0000  
+2018-08-30 15:14:08 +0000  /usr/bin/ditto exited with 0
+2018-08-30 15:14:08 +0000  2018-08-30 15:14:08 +0000  
+
+2018-08-30 15:14:08 +0000  Processing step: IDEDistributionAppThinningStep
+2018-08-30 15:14:08 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-08-30 15:14:08 +0000  Processing step: IDEDistributionODRStep
+2018-08-30 15:14:08 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-08-30 15:14:08 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd36b3ca600 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fd36bef2440:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftCore.dylib'>'>
+2018-08-30 15:14:08 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd36a319c90 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fd36bf56d10:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-08-30 15:14:08 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd36f109a00 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fd36bf532c0:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-08-30 15:14:08 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd36befb3d0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fd36bef0e70:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-08-30 15:14:08 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd36a0c0b20 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fd36bf57910:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-08-30 15:14:08 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd36a0c7ec0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fd36bee3c80:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-08-30 15:14:08 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd36bf60830 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fd36bf59e20:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-08-30 15:14:08 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd36bf65d70 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fd36a3acfd0:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftMetal.dylib'>'>
+2018-08-30 15:14:08 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd36f2046b0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fd36beef440:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-08-30 15:14:08 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd36b4fb190 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fd36bf58cf0:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-08-30 15:14:08 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd36f20e330 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fd36bf28470:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-08-30 15:14:08 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd36b3f9650 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fd36bf54a30:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftos.dylib'>'>
+2018-08-30 15:14:08 +0000  Running /usr/bin/xattr '-crs' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app'
+2018-08-30 15:14:09 +0000  2018-08-30 15:14:09 +0000  /usr/bin/xattr exited with 02018-08-30 15:14:09 +0000  
+
+
+2018-08-30 15:14:09 +0000  Processing step: IDEDistributionCodesignStep
+2018-08-30 15:14:09 +0000  Entitlements for <IDEDistributionItem: 0x7fd36b3ca600 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fd36bef2440:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftCore.dylib'>'>: {
+}
+2018-08-30 15:14:09 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd36b3ca600 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fd36bef2440:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftCore.dylib'>'> to: /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/entitlementsn4KsKD
+2018-08-30 15:14:09 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'FA1CD8372AF6B7F9240AAC2ABF16DAC90BE5F9F0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/entitlementsn4KsKD' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftCore.dylib'
+2018-08-30 15:14:09 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftCore.dylib: replacing existing signature
+2018-08-30 15:14:11 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2018-08-30 15:14:11 +0000  2018-08-30 15:14:11 +0000  
+2018-08-30 15:14:11 +0000  /usr/bin/codesign exited with 0
+
+2018-08-30 15:14:11 +0000  Entitlements for <IDEDistributionItem: 0x7fd36a319c90 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fd36bf56d10:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2018-08-30 15:14:11 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd36a319c90 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fd36bf56d10:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/entitlementswKdyPp
+2018-08-30 15:14:11 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'FA1CD8372AF6B7F9240AAC2ABF16DAC90BE5F9F0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/entitlementswKdyPp' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftCoreFoundation.dylib'
+2018-08-30 15:14:11 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2018-08-30 15:14:11 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2018-08-30 15:14:11 +0000  
+2018-08-30 15:14:11 +0000  2018-08-30 15:14:11 +0000  /usr/bin/codesign exited with 0
+2018-08-30 15:14:11 +0000  
+
+2018-08-30 15:14:11 +0000  Entitlements for <IDEDistributionItem: 0x7fd36f109a00 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fd36bf532c0:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2018-08-30 15:14:11 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd36f109a00 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fd36bf532c0:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/entitlements6A5KeR
+2018-08-30 15:14:11 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'FA1CD8372AF6B7F9240AAC2ABF16DAC90BE5F9F0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/entitlements6A5KeR' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftCoreGraphics.dylib'
+2018-08-30 15:14:11 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2018-08-30 15:14:11 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2018-08-30 15:14:11 +0000  
+2018-08-30 15:14:11 +0000  
+2018-08-30 15:14:11 +0000  2018-08-30 15:14:11 +0000  /usr/bin/codesign exited with 0
+
+2018-08-30 15:14:11 +0000  2018-08-30 15:14:11 +0000  
+
+2018-08-30 15:14:11 +0000  Entitlements for <IDEDistributionItem: 0x7fd36befb3d0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fd36bef0e70:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2018-08-30 15:14:11 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd36befb3d0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fd36bef0e70:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/entitlementsX2Q6WB
+2018-08-30 15:14:11 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'FA1CD8372AF6B7F9240AAC2ABF16DAC90BE5F9F0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/entitlementsX2Q6WB' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftCoreImage.dylib'
+2018-08-30 15:14:11 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2018-08-30 15:14:12 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2018-08-30 15:14:12 +0000  
+2018-08-30 15:14:12 +0000  2018-08-30 15:14:12 +0000  
+
+2018-08-30 15:14:12 +0000  
+2018-08-30 15:14:12 +0000  2018-08-30 15:14:12 +0000  /usr/bin/codesign exited with 0
+
+2018-08-30 15:14:12 +0000  
+2018-08-30 15:14:12 +0000  
+2018-08-30 15:14:12 +0000  Entitlements for <IDEDistributionItem: 0x7fd36a0c0b20 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fd36bf57910:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2018-08-30 15:14:12 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd36a0c0b20 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fd36bf57910:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/entitlementsrtTfsz
+2018-08-30 15:14:12 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'FA1CD8372AF6B7F9240AAC2ABF16DAC90BE5F9F0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/entitlementsrtTfsz' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftDarwin.dylib'
+2018-08-30 15:14:12 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2018-08-30 15:14:12 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2018-08-30 15:14:12 +0000  
+2018-08-30 15:14:12 +0000  
+2018-08-30 15:14:12 +0000  /usr/bin/codesign exited with 0
+2018-08-30 15:14:12 +0000  2018-08-30 15:14:12 +0000  
+
+2018-08-30 15:14:12 +0000  Entitlements for <IDEDistributionItem: 0x7fd36a0c7ec0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fd36bee3c80:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2018-08-30 15:14:12 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd36a0c7ec0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fd36bee3c80:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/entitlementsF1D8JG
+2018-08-30 15:14:12 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'FA1CD8372AF6B7F9240AAC2ABF16DAC90BE5F9F0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/entitlementsF1D8JG' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftDispatch.dylib'
+2018-08-30 15:14:12 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2018-08-30 15:14:12 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2018-08-30 15:14:12 +0000  
+2018-08-30 15:14:12 +0000  
+2018-08-30 15:14:12 +0000  /usr/bin/codesign exited with 0
+2018-08-30 15:14:12 +0000  
+2018-08-30 15:14:12 +0000  Entitlements for <IDEDistributionItem: 0x7fd36bf60830 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fd36bf59e20:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2018-08-30 15:14:12 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd36bf60830 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fd36bf59e20:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/entitlementsA9Q41v
+2018-08-30 15:14:12 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'FA1CD8372AF6B7F9240AAC2ABF16DAC90BE5F9F0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/entitlementsA9Q41v' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftFoundation.dylib'
+2018-08-30 15:14:13 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2018-08-30 15:14:14 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2018-08-30 15:14:14 +0000  
+2018-08-30 15:14:14 +0000  
+2018-08-30 15:14:14 +0000  /usr/bin/codesign exited with 0
+2018-08-30 15:14:14 +0000  
+2018-08-30 15:14:14 +0000  
+2018-08-30 15:14:14 +0000  Entitlements for <IDEDistributionItem: 0x7fd36bf65d70 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fd36a3acfd0:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2018-08-30 15:14:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd36bf65d70 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fd36a3acfd0:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/entitlements1JeIPs
+2018-08-30 15:14:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'FA1CD8372AF6B7F9240AAC2ABF16DAC90BE5F9F0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/entitlements1JeIPs' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftMetal.dylib'
+2018-08-30 15:14:15 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftMetal.dylib: replacing existing signature
+2018-08-30 15:14:15 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2018-08-30 15:14:15 +0000  
+2018-08-30 15:14:15 +0000  
+2018-08-30 15:14:15 +0000  /usr/bin/codesign exited with 0
+2018-08-30 15:14:15 +0000  
+2018-08-30 15:14:15 +0000  
+2018-08-30 15:14:15 +0000  Entitlements for <IDEDistributionItem: 0x7fd36f2046b0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fd36beef440:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2018-08-30 15:14:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd36f2046b0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fd36beef440:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/entitlementskMrWBZ
+2018-08-30 15:14:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'FA1CD8372AF6B7F9240AAC2ABF16DAC90BE5F9F0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/entitlementskMrWBZ' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftObjectiveC.dylib'
+2018-08-30 15:14:15 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2018-08-30 15:14:15 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2018-08-30 15:14:15 +0000  
+2018-08-30 15:14:15 +0000  2018-08-30 15:14:15 +0000  /usr/bin/codesign exited with 0
+
+2018-08-30 15:14:15 +0000  
+2018-08-30 15:14:15 +0000  Entitlements for <IDEDistributionItem: 0x7fd36b4fb190 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fd36bf58cf0:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2018-08-30 15:14:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd36b4fb190 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fd36bf58cf0:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/entitlementsrzL3W4
+2018-08-30 15:14:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'FA1CD8372AF6B7F9240AAC2ABF16DAC90BE5F9F0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/entitlementsrzL3W4' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftQuartzCore.dylib'
+2018-08-30 15:14:16 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2018-08-30 15:14:16 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2018-08-30 15:14:16 +0000  
+2018-08-30 15:14:16 +0000  
+2018-08-30 15:14:16 +0000  
+2018-08-30 15:14:16 +0000  2018-08-30 15:14:16 +0000  /usr/bin/codesign exited with 0
+2018-08-30 15:14:16 +0000  
+
+2018-08-30 15:14:16 +0000  Entitlements for <IDEDistributionItem: 0x7fd36f20e330 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fd36bf28470:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftUIKit.dylib'>'>: {
+}
+2018-08-30 15:14:16 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd36f20e330 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fd36bf28470:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftUIKit.dylib'>'> to: /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/entitlementsWP9fcn
+2018-08-30 15:14:16 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'FA1CD8372AF6B7F9240AAC2ABF16DAC90BE5F9F0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/entitlementsWP9fcn' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftUIKit.dylib'
+2018-08-30 15:14:16 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftUIKit.dylib: replacing existing signature
+2018-08-30 15:14:16 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2018-08-30 15:14:16 +0000  
+2018-08-30 15:14:16 +0000  2018-08-30 15:14:16 +0000  /usr/bin/codesign exited with 0
+
+2018-08-30 15:14:16 +0000  
+2018-08-30 15:14:16 +0000  
+2018-08-30 15:14:16 +0000  Entitlements for <IDEDistributionItem: 0x7fd36b3f9650 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fd36bf54a30:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftos.dylib'>'>: {
+}
+2018-08-30 15:14:16 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd36b3f9650 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fd36bf54a30:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app/Frameworks/libswiftos.dylib'>'> to: /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/entitlementsn7p2LH
+2018-08-30 15:14:16 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'FA1CD8372AF6B7F9240AAC2ABF16DAC90BE5F9F0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/entitlementsn7p2LH' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftos.dylib'
+2018-08-30 15:14:17 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftos.dylib: replacing existing signature
+2018-08-30 15:14:17 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2018-08-30 15:14:17 +0000  
+2018-08-30 15:14:17 +0000  2018-08-30 15:14:17 +0000  /usr/bin/codesign exited with 0
+
+2018-08-30 15:14:17 +0000  Entitlements for <IDEDistributionItem: 0x7fd36bef22d0 'com.DavidSabzanov.GesturCalc' '<DVTFilePath:0x7fd36a37afe0:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app'>'>: {
+    "application-identifier" = "DJ8NDX2RFP.com.DavidSabzanov.GesturCalc";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = DJ8NDX2RFP;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "DJ8NDX2RFP.com.DavidSabzanov.GesturCalc"
+    );
+}
+2018-08-30 15:14:17 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd36bef22d0 'com.DavidSabzanov.GesturCalc' '<DVTFilePath:0x7fd36a37afe0:'/Users/davidsabzanov/Library/Developer/Xcode/Archives/2018-08-29/GesturCalc 8-29-18, 12.21 PM.xcarchive/Products/Applications/GesturCalc.app'>'> to: /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/entitlementsm6dqrY
+2018-08-30 15:14:17 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'FA1CD8372AF6B7F9240AAC2ABF16DAC90BE5F9F0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/entitlementsm6dqrY' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app'
+2018-08-30 15:14:19 +0000  /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root/Payload/GesturCalc.app: signed app bundle with Mach-O universal (armv7 arm64) [com.DavidSabzanov.GesturCalc]
+2018-08-30 15:14:19 +0000  
+2018-08-30 15:14:19 +0000  /usr/bin/codesign exited with 0
+2018-08-30 15:14:19 +0000  2018-08-30 15:14:19 +0000  
+
+2018-08-30 15:14:19 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2018-08-30 15:14:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-30 15:14:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-30 15:14:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-30 15:14:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-30 15:14:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-30 15:14:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-30 15:14:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-30 15:14:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-30 15:14:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-30 15:14:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-30 15:14:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-30 15:14:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-30 15:14:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-30 15:14:19 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-08-30 15:14:19 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Symbols' '--link-dest' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root'
+2018-08-30 15:14:19 +0000  building file list ... 
+2018-08-30 15:14:19 +0000   0 files...2018-08-30 15:14:19 +0000  37 files to consider
+2018-08-30 15:14:19 +0000  Symbols/
+2018-08-30 15:14:19 +0000  
+sent 2.03K bytes  received 26 bytes  4.10K bytes/sec
+total size is 15.28M  speedup is 7631.38
+2018-08-30 15:14:19 +0000  
+2018-08-30 15:14:19 +0000  
+2018-08-30 15:14:19 +0000  /usr/bin/rsync exited with 0
+2018-08-30 15:14:19 +0000  
+2018-08-30 15:14:19 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root' '/var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Packages/GesturCalc.ipa'
+2018-08-30 15:14:19 +0000  >>> Copying /var/folders/0r/83_mdjyj58n8_1dtfcv1lp2h0000gn/T/XcodeDistPipeline.rTo/Root 
+2018-08-30 15:14:19 +0000  copying file ./BCSymbolMaps/45371BCE-9388-3788-81E2-048D807E9D05.bcsymbolmap ... 
+2018-08-30 15:14:19 +0000  44677 bytes for ./BCSymbolMaps/45371BCE-9388-3788-81E2-048D807E9D05.bcsymbolmap
+copying file ./BCSymbolMaps/AC0D1233-0F75-315F-ADE0-C73E7D45ECC6.bcsymbolmap ... 
+2018-08-30 15:14:19 +0000  43809 bytes for ./BCSymbolMaps/AC0D1233-0F75-315F-ADE0-C73E7D45ECC6.bcsymbolmap
+2018-08-30 15:14:19 +0000  copying file ./Payload/GesturCalc.app/_CodeSignature/CodeResources ... 
+2018-08-30 15:14:19 +0000  16175 bytes for ./Payload/GesturCalc.app/_CodeSignature/CodeResources
+2018-08-30 15:14:19 +0000  copying file ./Payload/GesturCalc.app/AppIcon20x20@2x.png ... 
+2018-08-30 15:14:19 +0000  1681 bytes for ./Payload/GesturCalc.app/AppIcon20x20@2x.png
+copying file ./Payload/GesturCalc.app/AppIcon20x20@3x.png ... 
+2018-08-30 15:14:19 +0000  2747 bytes for ./Payload/GesturCalc.app/AppIcon20x20@3x.png
+copying file ./Payload/GesturCalc.app/AppIcon60x60@2x.png ... 
+2018-08-30 15:14:19 +0000  5532 bytes for ./Payload/GesturCalc.app/AppIcon60x60@2x.png
+copying file ./Payload/GesturCalc.app/AppIcon60x60@2x~car.png ... 
+2018-08-30 15:14:19 +0000  5532 bytes for ./Payload/GesturCalc.app/AppIcon60x60@2x~car.png
+2018-08-30 15:14:19 +0000  copying file ./Payload/GesturCalc.app/AppIcon60x60@3x~car.png ... 
+2018-08-30 15:14:19 +0000  10099 bytes for ./Payload/GesturCalc.app/AppIcon60x60@3x~car.png
+2018-08-30 15:14:19 +0000  copying file ./Payload/GesturCalc.app/AppIcon29x29@2x.png ... 
+2018-08-30 15:14:19 +0000  2643 bytes for ./Payload/GesturCalc.app/AppIcon29x29@2x.png
+copying file ./Payload/GesturCalc.app/AppIcon40x40@3x.png ... 
+2018-08-30 15:14:19 +0000  5532 bytes for ./Payload/GesturCalc.app/AppIcon40x40@3x.png
+2018-08-30 15:14:19 +0000  copying file ./Payload/GesturCalc.app/AppIcon29x29~ipad.png ... 
+1228 bytes for ./Payload/GesturCalc.app/AppIcon29x29~ipad.png
+2018-08-30 15:14:19 +0000  copying file ./Payload/GesturCalc.app/AppIcon40x40@2x.png ... 
+2018-08-30 15:14:19 +0000  3938 bytes for ./Payload/GesturCalc.app/AppIcon40x40@2x.png
+copying file ./Payload/GesturCalc.app/AppIcon29x29@3x.png ... 
+2018-08-30 15:14:19 +0000  4120 bytes for ./Payload/GesturCalc.app/AppIcon29x29@3x.png
+2018-08-30 15:14:19 +0000  copying file ./Payload/GesturCalc.app/AppIcon60x60@3x.png ... 
+2018-08-30 15:14:19 +0000  10099 bytes for ./Payload/GesturCalc.app/AppIcon60x60@3x.png
+2018-08-30 15:14:19 +0000  copying file ./Payload/GesturCalc.app/Base.lproj/Main.storyboardc/tzE-Wy-65Q-view-ymh-oE-pqj.nib ... 
+5839 bytes for ./Payload/GesturCalc.app/Base.lproj/Main.storyboardc/tzE-Wy-65Q-view-ymh-oE-pqj.nib
+2018-08-30 15:14:19 +0000  copying file ./Payload/GesturCalc.app/Base.lproj/Main.storyboardc/UIViewController-qem-YT-0lN.nib ... 
+2018-08-30 15:14:19 +0000  990 bytes for ./Payload/GesturCalc.app/Base.lproj/Main.storyboardc/UIViewController-qem-YT-0lN.nib
+copying file ./Payload/GesturCalc.app/Base.lproj/Main.storyboardc/OnboardingViewController.nib ... 
+2018-08-30 15:14:19 +0000  1370 bytes for ./Payload/GesturCalc.app/Base.lproj/Main.storyboardc/OnboardingViewController.nib
+copying file ./Payload/GesturCalc.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-08-30 15:14:19 +0000  2927 bytes for ./Payload/GesturCalc.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2018-08-30 15:14:19 +0000  copying file ./Payload/GesturCalc.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-08-30 15:14:19 +0000  21168 bytes for ./Payload/GesturCalc.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2018-08-30 15:14:19 +0000  copying file ./Payload/GesturCalc.app/Base.lproj/Main.storyboardc/Info.plist ... 
+393 bytes for ./Payload/GesturCalc.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/GesturCalc.app/Base.lproj/Main.storyboardc/qem-YT-0lN-view-mdE-HV-nwS.nib ... 
+2018-08-30 15:14:19 +0000  14294 bytes for ./Payload/GesturCalc.app/Base.lproj/Main.storyboardc/qem-YT-0lN-view-mdE-HV-nwS.nib
+2018-08-30 15:14:19 +0000  copying file ./Payload/GesturCalc.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-lGs-iQ-Pav.nib ... 
+2018-08-30 15:14:19 +0000  6607 bytes for ./Payload/GesturCalc.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-lGs-iQ-Pav.nib
+2018-08-30 15:14:19 +0000  copying file ./Payload/GesturCalc.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-08-30 15:14:19 +0000  832 bytes for ./Payload/GesturCalc.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/GesturCalc.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-08-30 15:14:19 +0000  258 bytes for ./Payload/GesturCalc.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-08-30 15:14:19 +0000  copying file ./Payload/GesturCalc.app/Assets.car ... 
+2018-08-30 15:14:19 +0000  529496 bytes for ./Payload/GesturCalc.app/Assets.car
+2018-08-30 15:14:19 +0000  copying file ./Payload/GesturCalc.app/AppIcon40x40@2x~ipad.png ... 
+2018-08-30 15:14:19 +0000  3938 bytes for ./Payload/GesturCalc.app/AppIcon40x40@2x~ipad.png
+copying file ./Payload/GesturCalc.app/AppIcon76x76@2x~ipad.png ... 
+2018-08-30 15:14:19 +0000  6825 bytes for ./Payload/GesturCalc.app/AppIcon76x76@2x~ipad.png
+2018-08-30 15:14:19 +0000  copying file ./Payload/GesturCalc.app/AppIcon83.5x83.5@2x~ipad.png ... 
+2018-08-30 15:14:19 +0000  9337 bytes for ./Payload/GesturCalc.app/AppIcon83.5x83.5@2x~ipad.png
+2018-08-30 15:14:19 +0000  copying file ./Payload/GesturCalc.app/AppIcon29x29@2x~ipad.png ... 
+2018-08-30 15:14:19 +0000  2643 bytes for ./Payload/GesturCalc.app/AppIcon29x29@2x~ipad.png
+copying file ./Payload/GesturCalc.app/AppIcon40x40~ipad.png ... 
+2018-08-30 15:14:19 +0000  1681 bytes for ./Payload/GesturCalc.app/AppIcon40x40~ipad.png
+2018-08-30 15:14:19 +0000  copying file ./Payload/GesturCalc.app/Frameworks/libswiftCoreImage.dylib ... 
+2018-08-30 15:14:19 +0000  307984 bytes for ./Payload/GesturCalc.app/Frameworks/libswiftCoreImage.dylib
+2018-08-30 15:14:19 +0000  copying file ./Payload/GesturCalc.app/Frameworks/libswiftObjectiveC.dylib ... 
+2018-08-30 15:14:19 +0000  554448 bytes for ./Payload/GesturCalc.app/Frameworks/libswiftObjectiveC.dylib
+copying file ./Payload/GesturCalc.app/Frameworks/libswiftCore.dylib ... 
+2018-08-30 15:14:26 +0000  66662912 bytes for ./Payload/GesturCalc.app/Frameworks/libswiftCore.dylib
+2018-08-30 15:14:26 +0000  copying file ./Payload/GesturCalc.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2018-08-30 15:14:26 +0000  1628912 bytes for ./Payload/GesturCalc.app/Frameworks/libswiftCoreGraphics.dylib
+2018-08-30 15:14:26 +0000  copying file ./Payload/GesturCalc.app/Frameworks/libswiftUIKit.dylib ... 
+2018-08-30 15:14:26 +0000  1043376 bytes for ./Payload/GesturCalc.app/Frameworks/libswiftUIKit.dylib
+copying file ./Payload/GesturCalc.app/Frameworks/libswiftMetal.dylib ... 
+2018-08-30 15:14:26 +0000  449248 bytes for ./Payload/GesturCalc.app/Frameworks/libswiftMetal.dylib
+2018-08-30 15:14:26 +0000  copying file ./Payload/GesturCalc.app/Frameworks/libswiftDispatch.dylib ... 
+2018-08-30 15:14:27 +0000  2722656 bytes for ./Payload/GesturCalc.app/Frameworks/libswiftDispatch.dylib
+2018-08-30 15:14:27 +0000  copying file ./Payload/GesturCalc.app/Frameworks/libswiftos.dylib ... 
+2018-08-30 15:14:27 +0000  497504 bytes for ./Payload/GesturCalc.app/Frameworks/libswiftos.dylib
+2018-08-30 15:14:27 +0000  copying file ./Payload/GesturCalc.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2018-08-30 15:14:27 +0000  258096 bytes for ./Payload/GesturCalc.app/Frameworks/libswiftCoreFoundation.dylib
+copying file ./Payload/GesturCalc.app/Frameworks/libswiftDarwin.dylib ... 
+2018-08-30 15:14:27 +0000  839088 bytes for ./Payload/GesturCalc.app/Frameworks/libswiftDarwin.dylib
+2018-08-30 15:14:27 +0000  copying file ./Payload/GesturCalc.app/Frameworks/libswiftQuartzCore.dylib ... 
+2018-08-30 15:14:27 +0000  310976 bytes for ./Payload/GesturCalc.app/Frameworks/libswiftQuartzCore.dylib
+2018-08-30 15:14:27 +0000  copying file ./Payload/GesturCalc.app/Frameworks/libswiftFoundation.dylib ... 
+2018-08-30 15:14:30 +0000  30165600 bytes for ./Payload/GesturCalc.app/Frameworks/libswiftFoundation.dylib
+2018-08-30 15:14:30 +0000  copying file ./Payload/GesturCalc.app/AppIcon20x20~ipad.png ... 
+873 bytes for ./Payload/GesturCalc.app/AppIcon20x20~ipad.png
+copying file ./Payload/GesturCalc.app/embedded.mobileprovision ... 
+2018-08-30 15:14:30 +0000  7557 bytes for ./Payload/GesturCalc.app/embedded.mobileprovision
+copying file ./Payload/GesturCalc.app/AppIcon20x20@2x~ipad.png ... 
+2018-08-30 15:14:30 +0000  1681 bytes for ./Payload/GesturCalc.app/AppIcon20x20@2x~ipad.png
+2018-08-30 15:14:30 +0000  copying file ./Payload/GesturCalc.app/Info.plist ... 
+1335 bytes for ./Payload/GesturCalc.app/Info.plist
+2018-08-30 15:14:30 +0000  copying file ./Payload/GesturCalc.app/PkgInfo ... 
+2018-08-30 15:14:30 +0000  8 bytes for ./Payload/GesturCalc.app/PkgInfo
+2018-08-30 15:14:30 +0000  copying file ./Payload/GesturCalc.app/GesturCalc ... 
+2018-08-30 15:14:30 +0000  752096 bytes for ./Payload/GesturCalc.app/GesturCalc
+2018-08-30 15:14:30 +0000  copying file ./Payload/GesturCalc.app/AppIcon76x76~ipad.png ... 
+2018-08-30 15:14:30 +0000  3691 bytes for ./Payload/GesturCalc.app/AppIcon76x76~ipad.png
+2018-08-30 15:14:30 +0000  copying file ./SwiftSupport/iphoneos/libswiftCoreImage.dylib ... 
+2018-08-30 15:14:30 +0000  307520 bytes for ./SwiftSupport/iphoneos/libswiftCoreImage.dylib
+2018-08-30 15:14:30 +0000  copying file ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib ... 
+2018-08-30 15:14:30 +0000  553984 bytes for ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib
+2018-08-30 15:14:30 +0000  copying file ./SwiftSupport/iphoneos/libswiftCore.dylib ... 
+2018-08-30 15:14:36 +0000  66662432 bytes for ./SwiftSupport/iphoneos/libswiftCore.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib ... 
+2018-08-30 15:14:36 +0000  1628432 bytes for ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib
+2018-08-30 15:14:36 +0000  copying file ./SwiftSupport/iphoneos/libswiftUIKit.dylib ... 
+2018-08-30 15:14:36 +0000  1042912 bytes for ./SwiftSupport/iphoneos/libswiftUIKit.dylib
+copying file ./SwiftSupport/iphoneos/libswiftMetal.dylib ... 
+2018-08-30 15:14:36 +0000  448768 bytes for ./SwiftSupport/iphoneos/libswiftMetal.dylib
+2018-08-30 15:14:36 +0000  copying file ./SwiftSupport/iphoneos/libswiftDispatch.dylib ... 
+2018-08-30 15:14:36 +0000  2722176 bytes for ./SwiftSupport/iphoneos/libswiftDispatch.dylib
+copying file ./SwiftSupport/iphoneos/libswiftos.dylib ... 
+2018-08-30 15:14:36 +0000  497040 bytes for ./SwiftSupport/iphoneos/libswiftos.dylib
+2018-08-30 15:14:36 +0000  copying file ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib ... 
+2018-08-30 15:14:36 +0000  257616 bytes for ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib
+2018-08-30 15:14:36 +0000  copying file ./SwiftSupport/iphoneos/libswiftDarwin.dylib ... 
+2018-08-30 15:14:37 +0000  838608 bytes for ./SwiftSupport/iphoneos/libswiftDarwin.dylib
+copying file ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib ... 
+2018-08-30 15:14:37 +0000  310496 bytes for ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib
+copying file ./SwiftSupport/iphoneos/libswiftFoundation.dylib ... 
+2018-08-30 15:14:39 +0000  30165120 bytes for ./SwiftSupport/iphoneos/libswiftFoundation.dylib
+2018-08-30 15:14:39 +0000  copying file ./Symbols/FB5160D0-DC38-32E1-97CA-A2EEE72A8D80.symbols ... 
+2018-08-30 15:14:39 +0000  21552 bytes for ./Symbols/FB5160D0-DC38-32E1-97CA-A2EEE72A8D80.symbols
+2018-08-30 15:14:39 +0000  copying file ./Symbols/599F2CCE-4E8B-3255-9DDF-69DB9AA48764.symbols ... 
+2018-08-30 15:14:39 +0000  2368 bytes for ./Symbols/599F2CCE-4E8B-3255-9DDF-69DB9AA48764.symbols
+2018-08-30 15:14:39 +0000  copying file ./Symbols/0E333FDA-7200-3860-A53D-7604CEC3DC48.symbols ... 
+2018-08-30 15:14:39 +0000  2728 bytes for ./Symbols/0E333FDA-7200-3860-A53D-7604CEC3DC48.symbols
+copying file ./Symbols/AFC3DE45-AD58-3589-A978-26E2E97352C6.symbols ... 
+2018-08-30 15:14:39 +0000  12760 bytes for ./Symbols/AFC3DE45-AD58-3589-A978-26E2E97352C6.symbols
+2018-08-30 15:14:39 +0000  copying file ./Symbols/C5221413-9E18-342D-856E-F235DAA6A43A.symbols ... 
+2018-08-30 15:14:39 +0000  44536 bytes for ./Symbols/C5221413-9E18-342D-856E-F235DAA6A43A.symbols
+2018-08-30 15:14:39 +0000  copying file ./Symbols/D164CEE7-BC83-303F-8C3C-CC58F19C60DC.symbols ... 
+2018-08-30 15:14:39 +0000  221720 bytes for ./Symbols/D164CEE7-BC83-303F-8C3C-CC58F19C60DC.symbols
+2018-08-30 15:14:39 +0000  copying file ./Symbols/F27E68E1-3DF3-3593-A742-E2BB8A2B27D1.symbols ... 
+2018-08-30 15:14:39 +0000  103104 bytes for ./Symbols/F27E68E1-3DF3-3593-A742-E2BB8A2B27D1.symbols
+2018-08-30 15:14:39 +0000  copying file ./Symbols/2DDBE489-5355-3F49-B5EB-3E402BF3EEED.symbols ... 
+2018-08-30 15:14:39 +0000  12952 bytes for ./Symbols/2DDBE489-5355-3F49-B5EB-3E402BF3EEED.symbols
+2018-08-30 15:14:39 +0000  copying file ./Symbols/FB3B98BE-29F3-3323-B1B8-62C00C4E1241.symbols ... 
+2018-08-30 15:14:39 +0000  21552 bytes for ./Symbols/FB3B98BE-29F3-3323-B1B8-62C00C4E1241.symbols
+2018-08-30 15:14:39 +0000  copying file ./Symbols/5DF1CCA7-DA49-3AE6-BC61-AAF18034779E.symbols ... 
+2018-08-30 15:14:39 +0000  6928 bytes for ./Symbols/5DF1CCA7-DA49-3AE6-BC61-AAF18034779E.symbols
+copying file ./Symbols/D40DEF73-60A6-339D-843D-88F258576F65.symbols ... 
+2018-08-30 15:14:39 +0000  2472 bytes for ./Symbols/D40DEF73-60A6-339D-843D-88F258576F65.symbols
+2018-08-30 15:14:39 +0000  copying file ./Symbols/52C534E7-F10B-3B31-AF3E-312445095B81.symbols ... 
+2018-08-30 15:14:39 +0000  13208 bytes for ./Symbols/52C534E7-F10B-3B31-AF3E-312445095B81.symbols
+2018-08-30 15:14:39 +0000  copying file ./Symbols/8887AE77-E0E6-33F5-BC91-47F1C42DF36C.symbols ... 
+2018-08-30 15:14:39 +0000  6592 bytes for ./Symbols/8887AE77-E0E6-33F5-BC91-47F1C42DF36C.symbols
+2018-08-30 15:14:39 +0000  copying file ./Symbols/81A30183-A8CF-3108-B15E-065E35312712.symbols ... 
+2018-08-30 15:14:39 +0000  223640 bytes for ./Symbols/81A30183-A8CF-3108-B15E-065E35312712.symbols
+copying file ./Symbols/60527F18-9766-3316-9C14-39EC7AEE013E.symbols ... 
+2018-08-30 15:14:39 +0000  3347936 bytes for ./Symbols/60527F18-9766-3316-9C14-39EC7AEE013E.symbols
+2018-08-30 15:14:39 +0000  copying file ./Symbols/181EE94A-59DC-3A9A-8A6A-064E95EBC254.symbols ... 
+2018-08-30 15:14:39 +0000  1511904 bytes for ./Symbols/181EE94A-59DC-3A9A-8A6A-064E95EBC254.symbols
+copying file ./Symbols/4FE54383-0B38-3378-B946-C669DD45FDD0.symbols ... 
+2018-08-30 15:14:39 +0000  3329416 bytes for ./Symbols/4FE54383-0B38-3378-B946-C669DD45FDD0.symbols
+copying file ./Symbols/AA29266D-D3A3-3D30-A668-A358052E1AAA.symbols ... 
+2018-08-30 15:14:39 +0000  103176 bytes for ./Symbols/AA29266D-D3A3-3D30-A668-A358052E1AAA.symbols
+2018-08-30 15:14:39 +0000  copying file ./Symbols/8C36E2E2-5504-31E9-BFBA-2D7B3C1B929B.symbols ... 
+2018-08-30 15:14:39 +0000  102384 bytes for ./Symbols/8C36E2E2-5504-31E9-BFBA-2D7B3C1B929B.symbols
+2018-08-30 15:14:39 +0000  copying file ./Symbols/062BD1C4-0293-3010-B791-EB1A4D4DC93B.symbols ... 
+2018-08-30 15:14:39 +0000  21592 bytes for ./Symbols/062BD1C4-0293-3010-B791-EB1A4D4DC93B.symbols
+2018-08-30 15:14:39 +0000  copying file ./Symbols/527DFD5B-F74E-35EC-AE84-2436FC6763FF.symbols ... 
+2018-08-30 15:14:39 +0000  12952 bytes for ./Symbols/527DFD5B-F74E-35EC-AE84-2436FC6763FF.symbols
+copying file ./Symbols/412B48C6-07FB-3096-A8F4-2FA3C159B67A.symbols ... 
+2018-08-30 15:14:39 +0000  60000 bytes for ./Symbols/412B48C6-07FB-3096-A8F4-2FA3C159B67A.symbols
+2018-08-30 15:14:39 +0000  copying file ./Symbols/CDD1E457-083C-3DA5-9500-DCAC844406CE.symbols ... 
+2018-08-30 15:14:39 +0000  13208 bytes for ./Symbols/CDD1E457-083C-3DA5-9500-DCAC844406CE.symbols
+2018-08-30 15:14:39 +0000  copying file ./Symbols/BC58E020-DAF4-3E8C-B605-9F213E5AEEDC.symbols ... 
+2018-08-30 15:14:39 +0000  43960 bytes for ./Symbols/BC58E020-DAF4-3E8C-B605-9F213E5AEEDC.symbols
+2018-08-30 15:14:39 +0000  copying file ./Symbols/5148ACA6-CD45-3355-81A1-B6C9274FA4ED.symbols ... 
+2018-08-30 15:14:39 +0000  60328 bytes for ./Symbols/5148ACA6-CD45-3355-81A1-B6C9274FA4ED.symbols
+2018-08-30 15:14:39 +0000  copying file ./Symbols/53726A84-1516-36DA-A562-7ACBD8725367.symbols ... 
+2018-08-30 15:14:39 +0000  13120 bytes for ./Symbols/53726A84-1516-36DA-A562-7ACBD8725367.symbols
+2018-08-30 15:14:39 +0000  copying file ./Symbols/C589B88B-F3EA-3544-8B25-4AA48143606C.symbols ... 
+2018-08-30 15:14:39 +0000  223712 bytes for ./Symbols/C589B88B-F3EA-3544-8B25-4AA48143606C.symbols
+copying file ./Symbols/E825EC9B-B58D-3A10-8398-70039E63709A.symbols ... 
+2018-08-30 15:14:39 +0000  2368 bytes for ./Symbols/E825EC9B-B58D-3A10-8398-70039E63709A.symbols
+2018-08-30 15:14:39 +0000  copying file ./Symbols/D0DE7B83-C6A5-3D19-AC61-12FBA3B84309.symbols ... 
+2018-08-30 15:14:39 +0000  1506160 bytes for ./Symbols/D0DE7B83-C6A5-3D19-AC61-12FBA3B84309.symbols
+copying file ./Symbols/0A1F05C0-B97E-3A2D-9641-94E42172B5F6.symbols ... 
+2018-08-30 15:14:39 +0000  2816 bytes for ./Symbols/0A1F05C0-B97E-3A2D-9641-94E42172B5F6.symbols
+copying file ./Symbols/00E1AB28-6A0D-308A-8401-7CA1137C57B6.symbols ... 
+2018-08-30 15:14:39 +0000  60328 bytes for ./Symbols/00E1AB28-6A0D-308A-8401-7CA1137C57B6.symbols
+2018-08-30 15:14:39 +0000  copying file ./Symbols/49FCED25-5BAB-3B4B-8806-7054BCEDF6C0.symbols ... 
+2018-08-30 15:14:39 +0000  6592 bytes for ./Symbols/49FCED25-5BAB-3B4B-8806-7054BCEDF6C0.symbols
+2018-08-30 15:14:39 +0000  copying file ./Symbols/58A03362-38CB-3412-A3C9-5348EACE6943.symbols ... 
+2018-08-30 15:14:39 +0000  1512048 bytes for ./Symbols/58A03362-38CB-3412-A3C9-5348EACE6943.symbols
+copying file ./Symbols/5D37943C-EAED-3B1B-9CB3-4738BE6F2561.symbols ... 
+2018-08-30 15:14:39 +0000  44536 bytes for ./Symbols/5D37943C-EAED-3B1B-9CB3-4738BE6F2561.symbols
+copying file ./Symbols/E8EF3E0F-39CF-3791-A8CC-AEB2C3CEBB1D.symbols ... 
+2018-08-30 15:14:39 +0000  2728 bytes for ./Symbols/E8EF3E0F-39CF-3791-A8CC-AEB2C3CEBB1D.symbols
+2018-08-30 15:14:39 +0000  copying file ./Symbols/09D4FF65-6FD5-3605-AAE3-0AB98E9C1472.symbols ... 
+2018-08-30 15:14:39 +0000  3348520 bytes for ./Symbols/09D4FF65-6FD5-3605-AAE3-0AB98E9C1472.symbols
+2018-08-30 15:14:39 +0000  2018-08-30 15:14:39 +0000  
+
+2018-08-30 15:14:39 +0000  /usr/bin/ditto exited with 0
+2018-08-30 15:14:39 +0000  2018-08-30 15:14:39 +0000  
+
+2018-08-30 15:14:39 +0000  Processing step: IDEDistributionCreateManifestStep
+2018-08-30 15:14:39 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so
