@@ -44,16 +44,13 @@ struct ContentView: View {
                 NumPadButtonView()
                 NumPadButtonView()
                 NumPadButtonView()
-                NumPadButtonView()
             }
             HStack(spacing: 0) {
                 NumPadButtonView()
                 NumPadButtonView()
                 NumPadButtonView()
-                NumPadButtonView()
             }
             HStack(spacing: 0) {
-                NumPadButtonView()
                 NumPadButtonView()
                 NumPadButtonView()
                 NumPadButtonView()
