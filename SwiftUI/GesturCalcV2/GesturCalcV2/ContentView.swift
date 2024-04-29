@@ -38,30 +38,7 @@ struct ContentView: View {
             }
             
             
-            
-            
-            HStack(spacing: 0) {
-                NumPadButtonView()
-                NumPadButtonView()
-                NumPadButtonView()
-            }
-            HStack(spacing: 0) {
-                NumPadButtonView()
-                NumPadButtonView()
-                NumPadButtonView()
-            }
-            HStack(spacing: 0) {
-                NumPadButtonView()
-                NumPadButtonView()
-                NumPadButtonView()
-            }
-            HStack(spacing: 0) {
-                NumPadButtonView()
-                NumPadButtonView()
-            }
-            
-            
-            
+            NumPadView()
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color.black.ignoresSafeArea())
