@@ -8,21 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showHelpView = false
+    
     var body: some View {
         VStack(spacing: 0) {
             VStack(spacing: 100) {
                 HStack(spacing: 250) {
-                    NavigationView {
-                        NavigationLink {
-                            HelpView()
-                        } label: {
-                            Image(systemName: "info.circle")
-                                .font(.system(size: 40, weight: .light))
-                                .foregroundColor(.white)
-                        }
-                        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
-                        .background(Color.black)
-                        
+                    Button {
+                        showHelpView.toggle()
+                    } label: {
+                        Image(systemName: "info.circle")
+                            .font(.system(size: 40, weight: .light))
+                            .foregroundColor(.white)
+                    }
+                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+                    .sheet(isPresented: $showHelpView) {
+                        HelpView()
                     }
                     Text("+")
                         .font(.custom("HelveticaLight", size: 40))

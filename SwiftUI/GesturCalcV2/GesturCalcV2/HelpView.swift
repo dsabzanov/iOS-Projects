@@ -8,8 +8,16 @@
 import SwiftUI
 
 struct HelpView: View {
+    @Environment(\.dismiss) var dismiss
+    
     var body: some View {
-        Text("Hello, World!")
+        Text("Help View!")
+        
+        Button("Press to dismiss") {
+            dismiss()
+        }
+        .font(.title)
+        .padding()
     }
 }
 
