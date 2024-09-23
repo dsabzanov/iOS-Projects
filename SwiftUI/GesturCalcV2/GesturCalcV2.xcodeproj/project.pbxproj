@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3478F0272C1818AA005441D4 /* HelpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3478F0262C1818AA005441D4 /* HelpViewModel.swift */; };
+		3478F0292C181AF5005441D4 /* Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3478F0282C181AF5005441D4 /* Gesture.swift */; };
+		3478F02B2C18288C005441D4 /* GestureListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3478F02A2C18288C005441D4 /* GestureListContentView.swift */; };
 		34ED3B532BDF4A2300459DF6 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ED3B522BDF4A2300459DF6 /* HelpView.swift */; };
 		34ED3B552BDF5F8100459DF6 /* NumPadButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ED3B542BDF5F8100459DF6 /* NumPadButtonView.swift */; };
 		34ED3B572BDF8A1300459DF6 /* NumPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ED3B562BDF8A1200459DF6 /* NumPadView.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3478F0262C1818AA005441D4 /* HelpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewModel.swift; sourceTree = "<group>"; };
+		3478F0282C181AF5005441D4 /* Gesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gesture.swift; sourceTree = "<group>"; };
+		3478F02A2C18288C005441D4 /* GestureListContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureListContentView.swift; sourceTree = "<group>"; };
 		34ED3B522BDF4A2300459DF6 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 		34ED3B542BDF5F8100459DF6 /* NumPadButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumPadButtonView.swift; sourceTree = "<group>"; };
 		34ED3B562BDF8A1200459DF6 /* NumPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumPadView.swift; sourceTree = "<group>"; };
@@ -105,6 +111,9 @@
 				34ED3B562BDF8A1200459DF6 /* NumPadView.swift */,
 				34ED3B542BDF5F8100459DF6 /* NumPadButtonView.swift */,
 				34ED3B522BDF4A2300459DF6 /* HelpView.swift */,
+				3478F02A2C18288C005441D4 /* GestureListContentView.swift */,
+				3478F0262C1818AA005441D4 /* HelpViewModel.swift */,
+				3478F0282C181AF5005441D4 /* Gesture.swift */,
 				34F670EA2BD8E834003D0A2E /* Assets.xcassets */,
 				34F670EC2BD8E834003D0A2E /* Preview Content */,
 			);
@@ -266,10 +275,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3478F02B2C18288C005441D4 /* GestureListContentView.swift in Sources */,
 				34F670E92BD8E833003D0A2E /* ContentView.swift in Sources */,
+				3478F0272C1818AA005441D4 /* HelpViewModel.swift in Sources */,
 				34ED3B552BDF5F8100459DF6 /* NumPadButtonView.swift in Sources */,
 				34ED3B532BDF4A2300459DF6 /* HelpView.swift in Sources */,
 				34ED3B572BDF8A1300459DF6 /* NumPadView.swift in Sources */,
+				3478F0292C181AF5005441D4 /* Gesture.swift in Sources */,
 				34F670E72BD8E833003D0A2E /* GesturCalcV2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
