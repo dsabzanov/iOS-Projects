@@ -10,51 +10,26 @@ import SwiftUI
 
 
 struct ContentView: View {
-    @State private var showHelpView = false
     @State private var operationLabel: String = ""
     @State private var numberLabel: String = "0"
     @StateObject var status = CalculatorStatus()
     
     var body: some View {
         VStack(spacing: 0) {
-            VStack(spacing: 100) {
-                HStack(spacing: 250) {
-                    Button {
-                        showHelpView.toggle()
-                    } label: {
-                        Image(systemName: "info.circle")
-                            .font(.system(size: 40, weight: .light))
-                            .foregroundColor(.white)
-                    }
-                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
-                    .sheet(isPresented: $showHelpView) {
-                        HelpView()
-                    }
-                    Text(operationLabel)
-                        .font(.custom("HelveticaLight", size: 40))
-                        .foregroundStyle(Color.white)
-                }
-                .frame(maxWidth: .infinity, maxHeight: 40.0)
-                .background(Color.black)
-                
-                Text(numberLabel)
-                    .font(.custom("HelveticaLight", size: 80))
-                    .frame(maxWidth: .infinity, maxHeight: 150.0, alignment: .trailing)
-                    .foregroundStyle(Color.white)
-                    
-            }
-            .gesture(DragGesture(minimumDistance: 3.0, coordinateSpace: .local)
-                .onEnded { value in
-                    displayGestures(value: value)
-                }
-            )
-            .onTapGesture {
-                functionButtons(selectedOperator: .sum)
-            }
-            .onLongPressGesture {
-                functionButtons(selectedOperator: .reset)
-            }
             
+            DisplayView(operationLabel: operationLabel, numberLabel: numberLabel)
+                .gesture(DragGesture(minimumDistance: 3.0, coordinateSpace: .local)
+                    .onEnded { value in
+                        displayGestures(value: value)
+                    }
+                )
+                .onTapGesture {
+                    functionButtons(selectedOperator: .sum)
+                }
+                .onLongPressGesture {
+                    functionButtons(selectedOperator: .reset)
+                }
+                
             
             NumPadView(status: status, numberLabel: $numberLabel)
                 .gesture(DragGesture(minimumDistance: 3.0, coordinateSpace: .local)
