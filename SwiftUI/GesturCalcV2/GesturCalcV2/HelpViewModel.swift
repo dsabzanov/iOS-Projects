@@ -7,7 +7,7 @@
 
 import Foundation
 
-class HelpViewModel: ObservableObject {
+class HelpViewModel {
     let numPadGestures = [
         Gesture(description: "Swipe Right", primaryImage: .swipeRightPng, operation: "+"),
         Gesture(description: "Swipe Left", primaryImage: .swipeLeftPng, operation: "-"),

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HelpView: View {
     @Environment(\.dismiss) var dismiss
-    @ObservedObject var helpViewModel = HelpViewModel()
+    var helpViewModel = HelpViewModel()
     
     var body: some View {
         VStack(spacing: 0) {
