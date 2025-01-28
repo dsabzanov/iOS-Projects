@@ -8,17 +8,16 @@
 import SwiftUI
 
 
-
 struct ContentView: View {
     @State private var operationLabel: String = ""
     @State private var numberLabel: String = "0"
-    @StateObject var status = CalculatorStatus()
+    var status = CalculatorStatus()
     
     var body: some View {
         VStack(spacing: 0) {
             
             DisplayView(operationLabel: operationLabel, numberLabel: numberLabel)
-                .gesture(DragGesture(minimumDistance: 3.0, coordinateSpace: .local)
+                .gesture(DragGesture(minimumDistance: 15.0, coordinateSpace: .local)
                     .onEnded { value in
                         displayGestures(value: value)
                     }
@@ -31,7 +30,7 @@ struct ContentView: View {
                 }
                 
             
-            NumPadView(status: status, numberLabel: $numberLabel)
+            NumPadView(numPadInput: numPadInput)
                 .gesture(DragGesture(minimumDistance: 3.0, coordinateSpace: .local)
                     .onEnded { value in
                         numPadGestures(value: value)
@@ -196,6 +195,58 @@ struct ContentView: View {
         }
     }
     
+    func numPadInput(value: Value) {
+        if value == .non {
+            return
+        }
+//        numberLabel += value.rawValue
+        
+        if status.prevOperation == .sum {
+            // reset
+        }
+        
+        if value == .decimal && !numberLabel.contains(".") {
+            numberLabel += value.rawValue
+        }
+        if numberLabel == "0" {
+            numberLabel = ""
+        }
+        if status.performingMath == true {
+            if value != .decimal {
+                status.currentNumber += value.rawValue
+                numberLabel = status.currentNumber
+            }
+            else {
+                if numberLabel == "0" {
+                    status.currentNumber = "0."
+                }
+                else {
+                    if !status.currentNumber.contains(".") {
+                        status.currentNumber += "."
+                    }
+                }
+                numberLabel = status.currentNumber
+            }
+        }
+        else {
+            if value != .decimal {
+                numberLabel += value.rawValue
+                if let numOnScreen = Double(numberLabel.replacingOccurrences(of: ",", with: "")) {
+                    status.numberOnScreen = numOnScreen
+                }
+            }
+            status.opIsSet = false
+            if let prevNum = Double(numberLabel.replacingOccurrences(of: ",", with: "")) {
+                status.previousNumber = prevNum
+            }
+        }
+        if !(numberLabel.contains(".") || (numberLabel.contains(".") && numberLabel.last == "0")) {
+            print("numberOnScreen: \(status.numberOnScreen)")
+            numberLabel = formatForNumberLabel(status.numberOnScreen)
+        }
+        labelTextLengthLimiter()
+    }
+    
     func formatForNumberLabel(_ value: Double) -> String {
         var formattedNumber: String
         
@@ -272,14 +323,14 @@ struct ContentView: View {
     }
 }
 
-class CalculatorStatus: ObservableObject {
-    @Published var numberOnScreen: Double = 0
-    @Published var previousNumber: Double = 0
-    @Published var currentNumber: String = ""
-    @Published var performingMath: Bool = false
-    @Published var operation: Operator = .non
-    @Published var prevOperation: Operator = .non
-    @Published var opIsSet: Bool = false
+class CalculatorStatus  {
+    var numberOnScreen: Double = 0
+    var previousNumber: Double = 0
+    var currentNumber: String = ""
+    var performingMath: Bool = false
+    var operation: Operator = .non
+    var prevOperation: Operator = .non
+    var opIsSet: Bool = false
 }
 
 enum Operator: String {

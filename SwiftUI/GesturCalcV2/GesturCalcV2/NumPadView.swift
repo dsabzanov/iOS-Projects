@@ -7,31 +7,48 @@
 
 import SwiftUI
 
+
 struct NumPadView: View {
-    @ObservedObject var status: CalculatorStatus
-    @Binding var numberLabel: String
+//    @StateObject var status: CalculatorStatus
+//    @Binding var numberLabel: String
+    
+//    var formatNumberLabel: (Double) -> String
+    var numPadInput: (Value) -> Void
     
     var body: some View {
         HStack(spacing: 0) {
-            NumPadButtonView(status: status, numberLabel: $numberLabel, label: .seven)
-            NumPadButtonView(status: status, numberLabel: $numberLabel, label: .eight)
-            NumPadButtonView(status: status, numberLabel: $numberLabel, label: .nine)
+//            NumPadButtonView(status: status, numberLabel: $numberLabel, label: .seven, formatNumberLabel: formatNumberLabel)
+//            NumPadButtonView(status: status, numberLabel: $numberLabel, label: .eight, formatNumberLabel: formatNumberLabel)
+//            NumPadButtonView(status: status, numberLabel: $numberLabel, label: .nine, formatNumberLabel: formatNumberLabel)
+            NumPadButtonView(label: .seven, numInput: numPadInput)
+            NumPadButtonView(label: .eight, numInput: numPadInput)
+            NumPadButtonView(label: .nine, numInput: numPadInput)
         }
         HStack(spacing: 0) {
-            NumPadButtonView(status: status, numberLabel: $numberLabel, label: .four)
-            NumPadButtonView(status: status, numberLabel: $numberLabel, label: .five)
-            NumPadButtonView(status: status, numberLabel: $numberLabel, label: .six)
+//            NumPadButtonView(status: status, numberLabel: $numberLabel, label: .four, formatNumberLabel: formatNumberLabel)
+//            NumPadButtonView(status: status, numberLabel: $numberLabel, label: .five, formatNumberLabel: formatNumberLabel)
+//            NumPadButtonView(status: status, numberLabel: $numberLabel, label: .six, formatNumberLabel: formatNumberLabel)
+            NumPadButtonView(label: .four, numInput: numPadInput)
+            NumPadButtonView(label: .five, numInput: numPadInput)
+            NumPadButtonView(label: .six, numInput: numPadInput)
         }
         HStack(spacing: 0) {
-            NumPadButtonView(status: status, numberLabel: $numberLabel, label: .one)
-            NumPadButtonView(status: status, numberLabel: $numberLabel, label: .two)
-            NumPadButtonView(status: status, numberLabel: $numberLabel, label: .three)
+//            NumPadButtonView(status: status, numberLabel: $numberLabel, label: .one, formatNumberLabel: formatNumberLabel)
+//            NumPadButtonView(status: status, numberLabel: $numberLabel, label: .two, formatNumberLabel: formatNumberLabel)
+//            NumPadButtonView(status: status, numberLabel: $numberLabel, label: .three, formatNumberLabel: formatNumberLabel)
+            NumPadButtonView(label: .one, numInput: numPadInput)
+            NumPadButtonView(label: .two, numInput: numPadInput)
+            NumPadButtonView(label: .three, numInput: numPadInput)
         }
         HStack(spacing: 0) {
-            NumPadButtonView(status: status, numberLabel: $numberLabel, label: .zero)
-            NumPadButtonView(status: status, numberLabel: $numberLabel, label: .decimal)
+//            NumPadButtonView(status: status, numberLabel: $numberLabel, label: .zero, formatNumberLabel: formatNumberLabel)
+//            NumPadButtonView(status: status, numberLabel: $numberLabel, label: .decimal, formatNumberLabel: formatNumberLabel)
+            NumPadButtonView(label: .zero, numInput: numPadInput)
+            NumPadButtonView(label: .decimal, numInput: numPadInput)
         }
     }
+    
+    
 }
 
 enum Value: String {
@@ -50,5 +67,5 @@ enum Value: String {
 }
 
 #Preview {
-    NumPadView(status: CalculatorStatus(), numberLabel: .constant("199.4"))
+//    NumPadView(status: CalculatorStatus(), numberLabel: .constant("199.4"), formatNumberLabel: <#(Double) -> String#>)
 }

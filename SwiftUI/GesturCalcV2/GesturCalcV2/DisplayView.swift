@@ -34,10 +34,15 @@ struct DisplayView: View {
             .frame(maxWidth: .infinity, maxHeight: 40.0)
             .background(Color.black)
             
-            Text(numberLabel)
-                .font(.custom("HelveticaLight", size: 80))
-                .frame(maxWidth: .infinity, maxHeight: 150.0, alignment: .trailing)
-                .foregroundStyle(Color.white)
+            // Moved the numberLabel Text within the HStack to increase the frame size to provide a larger area for the long press gesture to be recognized.
+            HStack {
+                Text(numberLabel)
+                    .font(.custom("HelveticaLight", size: 80))
+                    .frame(maxWidth: .infinity, maxHeight: 150.0, alignment: .trailing)
+                    .foregroundStyle(Color.white)
+            }
+            .background(Color.black)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
                 
         }
         
